@@ -17,9 +17,14 @@ export default function Sponsors() {
                         Join us as a sponsor at Kubernetes Community Days New Delhi and play a key role in empowering India’s cloud-native community. Sponsoring KCD New Delhi offers measurable business value—strengthen brand visibility, generate high-quality leads, position your solutions in front of active adopters, and demonstrate your commitment to the open-source ecosystem.
                     </p>
 
-                    <button className="bg-[#e2e8f0] hover:bg-white text-[#0f172a] font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-lg md:text-xl transform hover:-translate-y-1">
-                        Interested in Sponsoring?
-                    </button>
+                    <a 
+                        href="https://www.kcddelhi.com/sponsorship.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-[#e2e8f0] hover:bg-white text-[#0f172a] font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-lg md:text-xl transform hover:-translate-y-1"
+                    >
+                        Check Sponsorship Opportunities
+                    </a>
                    
 
                 </div>
