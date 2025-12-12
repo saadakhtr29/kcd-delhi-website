@@ -31,7 +31,7 @@ const organisers = [
     id: 4,
     name: "Saiyam Pathak",
     role: "Head of Developer Relations",
-    company: "Vcluster",
+    company: "vCluster",
     linkedin: "https://www.linkedin.com/in/saiyampathak/",
     image: "/team-assets/saiyam.png",
   },
