@@ -42,7 +42,8 @@ export default function Venue() {
                             </div>
                             <div className="text-center">
                                 <p className="text-[#0F0B33] text-lg">Location:</p>
-                                <p className="text-[#0F0B33] text-xl font-medium">New Delhi, India</p>
+                                <p className="text-[#0F0B33] text-xl font-medium">Aerocity, New Delhi</p>
+                                <p className="text-[#0F0B33] text-sm">Near IGI Airport</p>
                             </div>
                         </div>
 
@@ -53,7 +54,7 @@ export default function Venue() {
                             </div>
                             <div className="text-center">
                                 <p className="text-[#0F0B33] text-lg">Place:</p>
-                                <p className="text-[#0F0B33] text-xl font-medium">Venue name</p>
+                                <p className="text-[#0F0B33] text-xl font-medium">Holiday Inn New Delhi Aerocity</p>
                             </div>
                         </div>
 
@@ -70,10 +71,83 @@ export default function Venue() {
                     </div>
 
                     {/* View on Map Button */}
-                    <div className="flex justify-center mb-16">
-                        <button className="bg-[#3e3e3e] hover:bg-black text-white px-8 py-3 rounded-full font-medium transition-colors shadow-lg border border-[#0F0B33]">
+                    <div className="flex justify-center mb-12">
+                        <a 
+                            href="https://maps.google.com/?q=Holiday%20Inn,Asset%20Area%2012,New%20Delhi,India,110037"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-[#3e3e3e] hover:bg-black text-white px-8 py-3 rounded-full font-medium transition-colors shadow-lg border border-[#0F0B33] inline-block"
+                        >
                             View on Map
-                        </button>
+                        </a>
+                    </div>
+
+                    {/* Venue Images Gallery */}
+                    <div className="mb-16">
+                        <h3 className="text-2xl md:text-3xl font-bold text-[#0F0B33] mb-8 text-center">
+                            What Awaits You
+                        </h3>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                            {/* Hotel Exterior */}
+                            <div className="relative h-48 rounded-xl overflow-hidden group">
+                                <Image
+                                    src="https://digital.ihg.com/is/image/ihg/holiday-inn-new-delhi-3492356108-4x3?wid=733"
+                                    alt="Holiday Inn New Delhi - Hotel Exterior"
+                                    fill
+                                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent group-hover:from-black/50 transition-all" />
+                                <div className="absolute bottom-3 left-3">
+                                    <p className="text-white text-lg font-bold">🏨 Premium Venue</p>
+                                    <p className="text-white/80 text-xs">5-star conference experience</p>
+                                </div>
+                            </div>
+
+                            {/* Conference Space */}
+                            <div className="relative h-48 rounded-xl overflow-hidden group">
+                                <Image
+                                    src="https://digital.ihg.com/is/image/ihg/holiday-inn-new-delhi-9349097039-4x3?wid=733"
+                                    alt="Holiday Inn New Delhi - Conference Space"
+                                    fill
+                                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent group-hover:from-black/50 transition-all" />
+                                <div className="absolute bottom-3 left-3">
+                                    <p className="text-white text-lg font-bold">🎤 Grand Ballroom</p>
+                                    <p className="text-white/80 text-xs">500+ capacity for keynotes</p>
+                                </div>
+                            </div>
+
+                            {/* Networking Space */}
+                            <div className="relative h-48 rounded-xl overflow-hidden group">
+                                <Image
+                                    src="https://digital.ihg.com/is/image/ihg/holiday-inn-new-delhi-9219131639-4x3?wid=733"
+                                    alt="Holiday Inn New Delhi - Event Space"
+                                    fill
+                                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent group-hover:from-black/50 transition-all" />
+                                <div className="absolute bottom-3 left-3">
+                                    <p className="text-white text-lg font-bold">🤝 500+ Attendees</p>
+                                    <p className="text-white/80 text-xs">Network with cloud-native experts</p>
+                                </div>
+                            </div>
+
+                            {/* Gourmet Food */}
+                            <div className="relative h-48 rounded-xl overflow-hidden group">
+                                <Image
+                                    src="https://digital.ihg.com/is/image/ihg/holiday-inn-new-delhi-8132760214-4x3?wid=733"
+                                    alt="Holiday Inn New Delhi - Gourmet Food"
+                                    fill
+                                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent group-hover:from-black/50 transition-all" />
+                                <div className="absolute bottom-3 left-3">
+                                    <p className="text-white text-lg font-bold">🍽️ Gourmet Catering</p>
+                                    <p className="text-white/80 text-xs">Breakfast, lunch & refreshments</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Divider */}

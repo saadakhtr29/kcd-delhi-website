@@ -58,12 +58,12 @@ export default function Sponsors() {
               Silver Sponsors
             </h3>
             <div className="grid grid-cols-1 gap-8 place-items-center">
-              <div className="flex items-center justify-center bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 max-w-md w-full h-32 hover:bg-white">
+              <div className="flex items-center justify-center bg-[#1B2D4A]/95 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 max-w-md w-full h-32 hover:bg-[#1B2D4A]">
                 <ImageBtn
                   href="https://nudgebee.com/"
                   src="/nudgebee-logo.svg"
                   alt="NudgeBee Logo"
-                  width={180}
+                  width={280}
                   height={60}
                   className="max-w-full max-h-full object-contain"
                 />
