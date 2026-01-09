@@ -123,14 +123,11 @@ export default function Hero() {
               Register Now
             </button>
 
-            <a
-              href="https://sessionize.com/kcd-new-delhi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-white/10 transition-colors shadow-lg w-full sm:w-auto backdrop-blur-sm text-center inline-block"
+            <div
+              className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-lg font-medium text-lg shadow-lg w-full sm:w-auto backdrop-blur-sm text-center inline-block cursor-default"
             >
-              Call for papers
-            </a>
+              Agenda Coming Soon
+            </div>
           </div>
         </div>
       </div>

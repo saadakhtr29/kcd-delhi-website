@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MessageSquare } from "lucide-react";
+import { Calendar } from "lucide-react";
 
 export default function Speakers() {
     return (
@@ -32,35 +32,21 @@ export default function Speakers() {
 
                         {/* Title */}
                         <h2 className="text-4xl md:text-7xl font-bold text-black text-center tracking-tight">
-                            Call for Speakers
+                            Agenda
                         </h2>
 
-                        {/* Subtitle */}
-                        <p className="text-xl md:text-4xl text-gray-800 text-center font-normal leading-relaxed max-w-4xl">
-                            We&apos;re looking for passionate speakers to share their knowledge and experience with the Kubernetes Community in New Delhi.
-                        </p>
-
-                        {/* Call for Papers Inner Box */}
-                        <div className="bg-[#cc9c68]/90 border border-[#b08050] rounded-2xl p-6 md:p-8 w-full shadow-sm mt-4">
-                            <div className="flex items-start gap-4">
-                                <div className="flex-shrink-0 mt-1">
-                                    <MessageSquare className="w-6 h-6 text-black/70" />
-                                </div>
-                                <div>
-                                    <p className="text-black text-lg md:text-xl leading-relaxed font-medium">
-                                        <span className="font-bold">Call for Papers</span> Now Open! Share your cloud-native expertise. We welcome talks on Kubernetes, observability, security, CI/CD, and platform engineering.
-                                    </p>
-                                </div>
-                            </div>
+                        {/* Coming Soon Badge */}
+                        <div className="flex items-center gap-3 bg-[#cc9c68]/90 border border-[#b08050] rounded-2xl px-8 py-4 shadow-sm">
+                            <Calendar className="w-8 h-8 text-black/70" />
+                            <span className="text-2xl md:text-4xl font-semibold text-black">
+                                Coming Soon
+                            </span>
                         </div>
 
-                        {/* CTA Button */}
-                        <a
-                            href="https://sessionize.com/kcd-new-delhi/"
-                            className="bg-[#0f172a] text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-[#1e293b] transition-colors shadow-lg mt-4"
-                        >
-                            Submit your talk
-                        </a>
+                        {/* Subtitle */}
+                        <p className="text-xl md:text-2xl text-gray-800 text-center font-normal leading-relaxed max-w-3xl mt-4">
+                            Stay tuned! We&apos;re preparing an exciting lineup of talks and sessions for KCD Delhi 2026.
+                        </p>
 
                     </div>
                 </div>
