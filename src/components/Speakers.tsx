@@ -2,43 +2,47 @@ import Image from "next/image";
 import { Calendar } from "lucide-react";
 
 const sessions = [
-  // Session Block 1 — Stage 1
+  // 11:15 – 11:45
   {
     time: "11:15 – 11:45",
     title: "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust",
     speakers: "Gurpreet Sachdeva",
   },
   {
-    time: "11:45 – 12:15",
-    title: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
-    speakers: "Sagar Utekar, Oshi Gupta",
-  },
-  {
-    time: "12:15 – 12:45",
-    title: "How to Defeat OTel’s Silent Killer, the Performance Overhead",
-    speakers: "Diana Todea",
-  },
-  {
-    time: "12:45 – 1:15",
-    title: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
-    speakers: "Hrittik Roy, Aditya Soni",
-  },
-
-  // Session Block 1 — Stage 2
-  {
     time: "11:15 – 11:45",
     title: "GPU-Native Observability: Reducing LLM Latency with eBPF and Grafana Beyla",
     speakers: "Rigin Rajan",
+  },
+
+  // 11:45 – 12:15
+  {
+    time: "11:45 – 12:15",
+    title: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
+    speakers: "Sagar Utekar, Oshi Gupta",
   },
   {
     time: "11:45 – 12:15",
     title: "OpenChoreo: A Plane-Based Architecture for Internal Developer Platforms",
     speakers: "Manjula Rathnayaka",
   },
+
+  // 12:15 – 12:45
+  {
+    time: "12:15 – 12:45",
+    title: "How to Defeat OTel’s Silent Killer, the Performance Overhead",
+    speakers: "Diana Todea",
+  },
   {
     time: "12:15 – 12:45",
     title: "From Cloud to Pi: Zero-Trust Artifact Distribution to Edge & Remote Sites with Harbor Satellite",
     speakers: "Prasanth Baskar, Soham Chakraborty",
+  },
+
+  // 12:45 – 1:15
+  {
+    time: "12:45 – 1:15",
+    title: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
+    speakers: "Hrittik Roy, Aditya Soni",
   },
   {
     time: "12:45 – 1:15",
@@ -46,28 +50,39 @@ const sessions = [
     speakers: "Aditya Joshi",
   },
 
-  // Session Block 2 — Stage 1
+  // 2:15 – 2:45
   {
     time: "2:15 – 2:45",
     title: "Patterns of building platform operators",
     speakers: "George Hantzaras",
   },
+
+  // 2:15 – 3:30
   {
-    time: "3:15 – 3:45",
-    title: "Thinking Fast on the Edge: Real-Time, On-Device AI for Billion-User Apps",
-    speakers: "Neeraj Poddar",
+    time: "2:15 – 3:30",
+    title: "Real-World Multi Cluster Networking Patterns with Istio (Workshop)",
+    speakers: "Sayed Imran",
   },
 
-  // Session Block 2 — Stage 2
+  // 2:45 – 3:00
   {
     time: "2:45 – 3:00",
     title: "Kubernetes 1.35: The Release That Finally Saves My Budget (and My Sanity)",
     speakers: "Arnab Chatterjee",
   },
+
+  // 3:00 – 3:15
   {
     time: "3:00 – 3:15",
     title: "Contributing to Argo CD: A Hands-On Guide for New Contributors in India",
     speakers: "Nitish Kumar",
+  },
+
+  // 3:15 – 3:45
+  {
+    time: "3:15 – 3:45",
+    title: "Thinking Fast on the Edge: Real-Time, On-Device AI for Billion-User Apps",
+    speakers: "Neeraj Poddar",
   },
   {
     time: "3:15 – 3:45",
@@ -75,30 +90,25 @@ const sessions = [
     speakers: "Anisha Singla, Amandeep Singh",
   },
 
-  // Galaxy Room — Workshop
-  {
-    time: "2:15 – 3:30",
-    title: "Real-World Multi Cluster Networking Patterns with Istio (Workshop)",
-    speakers: "Sayed Imran",
-  },
-
-  // Session Block 3 — Stage 1
-  {
-    time: "4:45 – 5:15",
-    title: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
-    speakers: "Suman Chakraborty, Mridul Gain",
-  },
-
-  // Session Block 3 — Stage 2
+  // 4:15 – 4:45
   {
     time: "4:15 – 4:45",
     title: "Beyond Device Plugins: Mastering GPU Workloads with DRA and NVIDIA GPU Operator",
     speakers: "Shivkumar Ople",
   },
+
+  // 4:45 – 5:00
   {
     time: "4:45 – 5:00",
     title: "AI-Assisted Kubernetes Policy Management with Kyverno",
     speakers: "Akshay Kumar",
+  },
+
+  // 4:45 – 5:15
+  {
+    time: "4:45 – 5:15",
+    title: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
+    speakers: "Suman Chakraborty, Mridul Gain",
   },
 ];
 
@@ -154,7 +164,7 @@ export default function Speakers() {
                     <th className="px-4 py-4 text-lg font-semibold text-center w-40">
                       Time
                     </th>
-                    <th className="px-6 py-4 text-lg font-semibold text-centerleft">
+                    <th className="px-6 py-4 text-lg font-semibold text-center">
                       Session Title & Speaker(s)
                     </th>
                   </tr>
