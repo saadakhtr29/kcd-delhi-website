@@ -107,6 +107,25 @@ export default function Sponsors() {
             </div>
           </div>
 
+                  <div className="mb-14">
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-8 bg-linear-to-r from-cyan-400 to-teal-600 bg-clip-text">
+              Community Partners
+            </h3>
+            <div className="grid grid-cols-1 gap-8 place-items-center">
+              <div className="flex items-center justify-center max-w-md bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 w-full h-32 hover:bg-white">
+                <ImageBtn
+                  href="https://kubesimplify.com/"
+                  src="/kubesimplify-logo.svg"
+                  alt="KubeSimplify Logo"
+                  width={260}
+                  height={60}
+                  className="max-w-full max-h-full object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+
           <Link
             href="/sponsorship.html"
             className="inline-block bg-[#e2e8f0] hover:bg-white text-[#0f172a] font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-lg md:text-xl transform hover:-translate-y-1"
