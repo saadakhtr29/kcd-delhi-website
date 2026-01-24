@@ -122,16 +122,6 @@ export default function Sponsors() {
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center max-w-md bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 w-full h-32 hover:bg-white">
-                <ImageBtn
-                  href="https://www.wemakedevs.org/"
-                  src="/we-make-dev-logo.jpeg"
-                  alt="KubeSimplify Logo"
-                  width={260}
-                  height={60}
-                  className="max-w-full max-h-full object-contain"
-                />
-              </div>
             </div>
           </div>
 
