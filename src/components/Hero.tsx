@@ -118,14 +118,12 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto">
             <button
               onClick={handleRegisterClick}
-              className="bg-[#0f172a] text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-[#0f172a]/90 transition-colors shadow-lg w-full sm:w-auto text-center"
+              className="bg-[#0f172a] text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-[#0f172a]/90 transition-colors shadow-lg w-full sm:w-auto text-center cursor-pointer"
             >
               Register Now
             </button>
 
-            <div
-              className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-lg font-medium text-lg shadow-lg w-full sm:w-auto backdrop-blur-sm text-center inline-block cursor-default"
-            >
+            <div className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-lg font-medium text-lg shadow-lg w-full sm:w-auto backdrop-blur-sm text-center inline-block cursor-default">
               Agenda Coming Soon
             </div>
           </div>
