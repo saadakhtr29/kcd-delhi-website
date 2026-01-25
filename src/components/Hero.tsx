@@ -78,16 +78,17 @@ export default function Hero() {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 -z-10 bg-linear-to-br from-[#EAB308]/60 via-[#F97316]/50 to-[#14B8A6]/60 mix-blend-multiply" />
 
-      <div className="container mx-auto px-6 md:px-12 pt-20 z-10">
+<div className="container mx-auto px-6 md:px-12 pt-32 z-10">
         <div className="flex flex-col items-start gap-8 max-w-4xl">
           <div className="flex flex-col items-start">
             {/* Mobile-only single line */}
-            <h1 className="md:hidden text-white text-4xl font-bold leading-tight drop-shadow-lg whitespace-nowrap">
-              KCD Delhi 2026
-            </h1>
+            <h1 className="md:hidden mt-6 text-white text-4xl font-bold leading-tight drop-shadow-lg whitespace-nowrap">
+  KCD Delhi 2026
+</h1>
+
 
             {/* Desktop original - unchanged */}
-            <h1 className="hidden md:block text-white text-6xl md:text-8xl font-bold leading-tight drop-shadow-lg">
+            <h1 className="hidden md:block text-white text-6xl md:text-8xl font-bold leading-tight drop-shadow-lg px-2 py-4">
               KCD
               <br />
               Delhi
