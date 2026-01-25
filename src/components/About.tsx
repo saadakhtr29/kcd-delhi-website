@@ -38,7 +38,7 @@ export default function About() {
                             <div className="bg-white/30 rounded-2xl p-10 flex flex-col items-center justify-center md:aspect-square border border-gray-400/20 shadow-sm hover:scale-105 transition-transform">
                                 <UsersRound className="w-24 h-24 text-blue-500 fill-blue-200/50 mb-4" strokeWidth={1.5} />
                                 <div className="text-center">
-                                    <h3 className="text-3xl font-bold text-gray-800 mb-1">700+</h3>
+                                    <h3 className="text-3xl font-bold text-gray-800 mb-1">500+</h3>
                                     <p className="text-gray-600 font-medium">Attendees</p>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ export default function About() {
                             <div className="bg-white/30 rounded-2xl p-10 flex flex-col items-center justify-center md:aspect-square border border-gray-400/20 shadow-sm hover:scale-105 transition-transform">
                                 <Shield className="w-24 h-24 text-green-500 fill-green-200/50 mb-4" strokeWidth={1.5} />
                                 <div className="text-center">
-                                    <h3 className="text-3xl font-bold text-gray-800 mb-1">30+</h3>
+                                    <h3 className="text-3xl font-bold text-gray-800 mb-1">20+</h3>
                                     <p className="text-gray-600 font-medium">Speakers</p>
                                 </div>
                             </div>
