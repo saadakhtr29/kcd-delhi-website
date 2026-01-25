@@ -137,7 +137,7 @@ export default function Sponsors() {
             <div className="flex items-center justify-center bg-white/95 rounded-xl p-8 shadow-lg w-full max-w-md h-32">
               <ImageBtn
                 href="https://www.wemakedevs.org/"
-                src="/we-make-dev-logo.jpeg"
+                src="/we-make-devs-logo.jpeg"
                 alt="WeMakeDevs Logo"
                 width={260}
                 height={60}
