@@ -45,13 +45,16 @@ export default function Navbar() {
     }, [lastScrollY]);
 
     return (
-        <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out ${
-            isVisible ? 'translate-y-0' : '-translate-y-full'
-        } ${
-            isScrolled 
-                ? 'bg-white/95 backdrop-blur-lg shadow-lg border-b border-gray-200/50' 
-                : 'bg-transparent'
-        }`}>
+<nav
+  className={`fixed top-0 pt-16 md:pt-6 left-0 right-0 z-40 transition-all duration-500 ease-in-out${
+    isVisible ? "translate-y-0" : "-translate-y-full"
+  } ${
+    isScrolled
+      ? "bg-white/95 backdrop-blur-lg shadow-lg border-b border-gray-200/50"
+      : "bg-transparent"
+  }`}
+>
+
             <div className="flex items-center justify-between px-6 py-4 md:px-12">
             <Link href="/" className="relative h-12 w-12 md:h-20 md:w-20">
                 <Image
