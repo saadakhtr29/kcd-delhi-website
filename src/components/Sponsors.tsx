@@ -121,12 +121,28 @@ export default function Sponsors() {
             Community Partners
           </h3>
 
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
+            <div className="flex items-center justify-center bg-white/95 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 w-full max-w-sm h-28 hover:bg-white">
           <div className="grid grid-cols-1 gap-8 place-items-center">
             <div className="flex items-center justify-center bg-white/95 rounded-xl p-8 shadow-lg max-w-md w-full h-32">
               <ImageBtn
                 href="https://kubesimplify.com/"
                 src="/kubesimplify-logo.svg"
                 alt="KubeSimplify Logo"
+                width={220}
+                height={50}
+                className="max-w-full max-h-full object-contain"
+              />
+            </div>
+
+            <div className="flex items-center justify-center bg-white/95 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 w-full max-w-sm h-28 hover:bg-white">
+              <ImageBtn
+                href="https://www.wemakedevs.org/"
+                src="/we-make-dev-logo.jpeg"
+                alt="WeMakeDevs Logo"
+                width={220}
+                height={50}
+                className="max-w-full max-h-full object-contain"
                 width={260}
                 height={60}
               />
