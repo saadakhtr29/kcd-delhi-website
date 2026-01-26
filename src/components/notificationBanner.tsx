@@ -16,6 +16,8 @@ export default function NotificationBanner() {
           <span className="bg-white/10 px-1.5 py-0.5 rounded border border-white/20 text-yellow-300 font-bold tracking-wide">
             CODE: REPUBLIC26
           </span>
+
+          <span>| Exnteded till 27th Jan</span>
         </span>
 
         <span className="hidden md:inline text-white/40 text-[10px]">|</span>
@@ -23,7 +25,7 @@ export default function NotificationBanner() {
         {/* Women's Offer */}
         <div className="flex items-center">
           <span className="px-3 py-1 rounded-full bg-white/20 text-white text-[11px] sm:text-xs font-semibold backdrop-blur-sm whitespace-nowrap">
-            🎉 Women&apos;s Discount - 40% OFF
+            🎉 Women&apos;s Discount - 40% OFF | Extended till 30th Jan
           </span>
         </div>
       </div>
