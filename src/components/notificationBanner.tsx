@@ -35,4 +35,3 @@ export default function NotificationBanner() {
       </div>
     </div>
   );
-}
