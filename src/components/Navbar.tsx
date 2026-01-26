@@ -25,7 +25,7 @@ export default function Navbar() {
             const currentScrollY = window.scrollY;
             
             // Check if user has scrolled past the hero section (100px threshold)
-            setIsScrolled(currentScrollY > 100);
+            setIsScrolled(currentScrollY > 150);
             
             // Show/hide navbar based on scroll direction
             if (currentScrollY < lastScrollY || currentScrollY < 100) {
@@ -46,11 +46,11 @@ export default function Navbar() {
 
     return (
 <nav
-  className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ease-in-out${
+  className={`fixed top-18 sm:top-10 left-0 right-0 z-40 transition-all duration-500 ease-in-out${
     isVisible ? "translate-y-0" : "-translate-y-full"
   } ${
     isScrolled
-      ? "bg-white/95 backdrop-blur-lg shadow-lg border-b border-gray-200/50"
+      ? "bg-white/85 backdrop-blur-lg shadow-lg border-b border-gray-200/50"
       : "bg-transparent"
   }`}
 >

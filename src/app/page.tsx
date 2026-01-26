@@ -12,8 +12,8 @@ import NotificationBanner from "@/components/notificationBanner";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
-  <NotificationBanner />
-  <Navbar />
+      <NotificationBanner />
+      <Navbar />
       <Hero />
       <About />
       <EventJourney />

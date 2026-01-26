@@ -97,6 +97,7 @@ export default function Hero() {
             </h1>
           </div>
 
+
           {/* Countdown - Single Frame */}
           <div className="flex gap-3 md:gap-6 w-full max-w-lg border-2 border-white/30 rounded-3xl p-4 md:p-6">
             {Object.entries(timeLeft).map(([unit, value]) => (
