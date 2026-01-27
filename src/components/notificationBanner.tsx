@@ -1,10 +1,6 @@
 "use client";
 
 export default function NotificationBanner() {
-  const END_DATE = new Date("2026-01-26T23:59:59");
-
-  if (new Date() > END_DATE) return null;
-
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center backdrop-blur-sm bg-[#177d69]/95 border-b border-white/10 py-2.5">
       <div className="w-full max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-2.5 md:gap-4">
