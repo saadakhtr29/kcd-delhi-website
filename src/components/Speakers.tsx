@@ -188,22 +188,23 @@ export default function Agenda() {
         </div>
 
         <div className="relative">
+          {/* Desktop arrows */}
           <button
             onClick={() =>
               setActiveTrack((activeTrack + tracks.length - 1) % tracks.length)
             }
-            className="absolute -left-8 md:-left-12 top-1/2 -translate-y-1/2 z-20
-             bg-white p-3 rounded-full shadow-lg
-             hover:scale-110 transition"
+            className="hidden md:flex absolute -left-12 top-1/2 -translate-y-1/2 z-20
+      bg-white p-3 rounded-full shadow-lg
+      hover:scale-110 transition"
           >
             <ChevronLeft className="w-5 h-5 text-black" />
           </button>
 
           <button
             onClick={() => setActiveTrack((activeTrack + 1) % tracks.length)}
-            className="absolute -right-8 md:-right-12 top-1/2 -translate-y-1/2 z-20
-             bg-white p-3 rounded-full shadow-lg
-             hover:scale-110 transition"
+            className="hidden md:flex absolute -right-12 top-1/2 -translate-y-1/2 z-20
+      bg-white p-3 rounded-full shadow-lg
+      hover:scale-110 transition"
           >
             <ChevronRight className="w-5 h-5 text-black" />
           </button>
@@ -211,6 +212,27 @@ export default function Agenda() {
           {tracks.map((track, i) => (
             <TrackTable key={i} track={track} isActive={i === activeTrack} />
           ))}
+
+          {/* Mobile arrows */}
+          <div className="flex md:hidden justify-center gap-6 mt-6">
+            <button
+              onClick={() =>
+                setActiveTrack(
+                  (activeTrack + tracks.length - 1) % tracks.length,
+                )
+              }
+              className="bg-white p-3 rounded-full shadow-md active:scale-95 transition"
+            >
+              <ChevronLeft className="w-5 h-5 text-black" />
+            </button>
+
+            <button
+              onClick={() => setActiveTrack((activeTrack + 1) % tracks.length)}
+              className="bg-white p-3 rounded-full shadow-md active:scale-95 transition"
+            >
+              <ChevronRight className="w-5 h-5 text-black" />
+            </button>
+          </div>
         </div>
       </div>
     </section>
