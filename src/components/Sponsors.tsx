@@ -183,6 +183,28 @@ export default function Sponsors() {
                 className="max-w-full max-h-full object-contain rounded-md"
               />
             </div>
+
+            <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+              <ImageBtn
+                href="https://www.linkedin.com/company/cncg-pune/posts/?feedView=all"
+                src="/cloud-native-partners/cncf_pune_logo.jpg"
+                alt="CNCF Pune Partner Logo"
+                width={220}
+                height={60}
+                className="max-w-full max-h-full object-contain rounded-md"
+              />
+            </div>
+
+            <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+              <ImageBtn
+                href="https://www.linkedin.com/company/cncf-hyderabad/posts/?feedView=all"
+                src="/cloud-native-partners/cncf_hyderabad_logo.jpg"
+                alt="CNCF Hyderabad Partner Logo"
+                width={220}
+                height={60}
+                className="max-w-full max-h-full object-contain rounded-md"
+              />
+            </div>
           </div>
         </div>
       </div>
