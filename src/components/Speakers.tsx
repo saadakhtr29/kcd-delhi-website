@@ -193,18 +193,14 @@ export default function Agenda() {
             onClick={() =>
               setActiveTrack((activeTrack + tracks.length - 1) % tracks.length)
             }
-            className="hidden md:flex absolute -left-12 top-1/2 -translate-y-1/2 z-20
-      bg-white p-3 rounded-full shadow-lg
-      hover:scale-110 transition"
+            className="hidden md:flex absolute -left-12 top-1/2 -translate-y-1/2 z-20 bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
           >
             <ChevronLeft className="w-5 h-5 text-black" />
           </button>
 
           <button
             onClick={() => setActiveTrack((activeTrack + 1) % tracks.length)}
-            className="hidden md:flex absolute -right-12 top-1/2 -translate-y-1/2 z-20
-      bg-white p-3 rounded-full shadow-lg
-      hover:scale-110 transition"
+            className="hidden md:flex absolute -right-12 top-1/2 -translate-y-1/2 z-20 bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
           >
             <ChevronRight className="w-5 h-5 text-black" />
           </button>
