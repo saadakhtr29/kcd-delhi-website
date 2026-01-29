@@ -29,7 +29,7 @@ export default function About() {
                     <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-3xl p-8 md:p-16 shadow-xl">
 
                         <p className="text-xl md:text-2xl text-center text-gray-800 font-medium leading-relaxed max-w-4xl mx-auto mb-16">
-                            Presenting you the first ever KCD in the heart of India - KCD Delhi, that brings together adopters and technologists from the open source and cloud native ecosystem for a full day of learning, collaboration, and meaningful networking. With 700+ attendees expected, it stands as one of India’s most vibrant cloud native gatherings.
+                            Presenting you the first ever KCD in the heart of India - KCD Delhi, that brings together adopters and technologists from the open source and cloud native ecosystem for a full day of learning, collaboration, and meaningful networking. With 500+ attendees expected, it stands as one of India’s most vibrant cloud native gatherings.
 
                         </p>
 
