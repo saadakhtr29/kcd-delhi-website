@@ -111,8 +111,10 @@ function TrackTable({
   return (
     <div
       className={`shrink-0 w-full transition-all duration-300 ${
-        isActive ? "opacity-100" : "opacity-0 absolute"
-      }`}
+  isActive
+    ? "opacity-100 relative pointer-events-auto"
+    : "opacity-0 absolute pointer-events-none"
+}`}
     >
       <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-300">
         <div className={`${track.headerBg} px-6 py-4 flex items-center gap-3`}>
