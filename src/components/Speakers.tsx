@@ -20,21 +20,21 @@ const tracks = [
 
       { time: "10:30 – 11:15", title: "Tea Break", speaker: "" },
 
-      { time: "11:15 – 11:45", title: "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust", speaker: " Gurpreet Sachdeva (Senior Director, capegemini)" },
-      { time: "11:45 – 12:15", title: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX", speaker: "Sagar Utekar (Site Reliability Engineer, CrowdStrike) & Oshi Gupta (Site Reliability Engineer @Improving Pune)" },
+      { time: "11:15 – 11:45", title: "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust", speaker: " Gurpreet Sachdeva - Senior Director, capegemini)" },
+      { time: "11:45 – 12:15", title: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX", speaker: "Sagar Utekar - Site Reliability Engineer, CrowdStrike & Oshi Gupta - Site Reliability Engineer, Improving Pune)" },
       { time: "12:15 – 12:45", title: "TBA", speaker: "TBA" },
-      { time: "12:45 – 13:15", title: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s", speaker: "Hrittik Roy & Aditya Soni" },
+      { time: "12:45 – 13:15", title: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s", speaker: "Hrittik Roy - Platform Advocate, vCluster & Aditya Soni - SRE, SailPoint" },
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
-      { time: "14:15 – 14:45", title: "Patterns of building platform operators", speaker: "George Hantzaras" },
+      { time: "14:15 – 14:45", title: "Patterns of building platform operators", speaker: "George Hantzaras - Director of Engineering, MongoDB" },
       { time: "14:45 – 15:15", title: "TBA", speaker: "TBA" },
       { time: "15:15 – 15:45", title: "TBA", speaker: "TBA" },
 
       { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
 
       { time: "16:15 – 16:45", title: "TBA", speaker: "TBA" },
-      { time: "16:45 – 17:15", title: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos", speaker: "Suman Chakraborty & Mridul Gain" },
+      { time: "16:45 – 17:15", title: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos", speaker: "Suman Chakraborty - Solutions Architect, Platform9  & Mridul Gain - Senior Member of Technical Staff, Platform9" },
 
       {
         time: "17:15 – 17:30",
@@ -50,22 +50,22 @@ const tracks = [
     bgColor: "bg-[#14B8A6]",
     headerBg: "bg-[#14B8A6]",
     sessions: [
-      { time: "11:15 – 11:45", title: "TBA", speaker: "TBA" },
-      { time: "11:45 – 12:15", title: "TBA", speaker: "TBA" },
-      { time: "12:15 – 12:45", title: "TBA", speaker: "TBA" },
-      { time: "12:45 – 13:15", title: "TBA", speaker: "TBA" },
+      { time: "11:15 – 11:45", title: "GPU-Native Observability: Reducing LLM Latency with eBPF and Grafana Beyla", speaker: "Rigin Rajan - Lead Consultant, HCLTech" },
+      { time: "11:45 – 12:15", title: "OpenChoreo: A Plane-Based Architecture for Internal Developer Platforms ", speaker: "Manjula Rathnayaka - Director of Engineering, WSO2 " },
+      { time: "12:15 – 12:45", title: "From Cloud to Pi: Zero-Trust Artifact Distribution to Edge & Remote Sites with Harbor Satellite", speaker: " Prasanth Baskar - Software Engineer,  Sematext Group & Soham Chakraborty - SRE,  Sematext Group" },
+      { time: "12:45 – 13:15", title: "GitOps at Scale using FluxCD", speaker: "Aditya Joshi - Senior Software Engineer, Walmart" },
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
-      { time: "14:15 – 14:45", title: "TBA", speaker: "TBA" },
-      { time: "14:45 – 15:00", title: "TBA", speaker: "TBA" },
-      { time: "15:00 – 15:15", title: "TBA", speaker: "TBA" },
-      { time: "15:15 – 15:45", title: "TBA", speaker: "TBA" },
+      { time: "14:15 – 14:45", title: "GPU Agnostic AI Inference with Ray on Kubernetes", speaker: "TBA" },
+      { time: "14:45 – 15:00", title: "Kubernetes 1.35: The Release That Finally Saves My Budget (and My Sanity)", speaker: " Arnab Chatterjee - Cloud Native Expert" },
+      { time: "15:00 – 15:15", title: "Contributing to Argo CD: A Hands-On Guide for New Contributors in India", speaker: " Nitish Kumar -  Software Engineer, Akuity &  Argo Project Maintainer" },
+      { time: "15:15 – 15:45", title: "KMCP and the Future of Agent-Native Kubernetes: Control Planes ", speaker: "Anisha Singla - Founder, Teeny Tech Trek & Aman Mundra -  Founder and CEO, Welzin" },
 
       { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
 
-      { time: "16:15 – 16:45", title: "TBA", speaker: "TBA" },
-      { time: "16:45 – 17:00", title: "TBA", speaker: "TBA" },
+      { time: "16:15 – 16:45", title: "Beyond Device Plugins: Mastering GPU Workloads with DRA and NVIDIA GPU Operator", speaker: " Shivkumar Ople - Senior Software Engineer, NVIDIA" },
+      { time: "16:45 – 17:00", title: "AI-Assisted Kubernetes Policy Management with Kyverno", speaker: "Akshay kumar -  Open Source Evangelist, Obmondo" },
     ],
   },
 
@@ -81,12 +81,12 @@ const tracks = [
 
       {
         time: "14:15 – 15:30",
-        title: "Workshop / Community Session (TBA)",
-        speaker: "TBA",
+        title: " Real-World Multi Cluster Networking Patterns with Istio",
+        speaker: "Sayad Imram, Kubestronaut",
       },
       {
         time: "15:30 – 15:45",
-        title: "Sponsor Lightning Session (TBA)",
+        title: "Why AIOps Failed, And Why Agents Might Finally Work",
         speaker: "TBA",
       },
 
