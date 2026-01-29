@@ -4,7 +4,6 @@ import Image from "next/image";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { useState } from "react";
 
-// Sample agenda data - replace with actual sessions
 const tracks = [
   {
     name: "Mainstage",
@@ -12,54 +11,92 @@ const tracks = [
     bgColor: "bg-[#F97316]",
     headerBg: "bg-[#F97316]",
     sessions: [
-      { time: "09:30 - 10:30", title: "Opening Keynote", speaker: "" },
-      { time: "10:30 - 11:00", title: "Session 1", speaker: "TBA" },
-      { time: "11:00 - 11:30", title: "Session 2", speaker: "TBA" },
-      { time: "11:30 - 12:00", title: "Session 3", speaker: "TBA" },
-      { time: "12:00 - 12:30", title: "Tea Break", speaker: "" },
-      { time: "12:30 - 13:00", title: "Session 4", speaker: "TBA" },
-      { time: "13:00 - 13:30", title: "Session 5", speaker: "TBA" },
-      { time: "13:30 - 14:30", title: "Lunch Break", speaker: "" },
-      { time: "14:30 - 15:00", title: "Session 6", speaker: "TBA" },
-      { time: "15:00 - 15:30", title: "Session 7", speaker: "TBA" },
-      { time: "15:30 - 16:00", title: "Session 8", speaker: "TBA" },
-      { time: "16:00 - 16:30", title: "Closing Keynote", speaker: "TBA" },
+      { time: "07:30 – 09:15", title: "Registrations", speaker: "" },
+
+      { time: "09:30 – 09:50", title: "Opening Remarks", speaker: "" },
+      { time: "09:50 – 10:00", title: "TBA", speaker: "TBA" },
+      { time: "10:00 – 10:10", title: "TBA", speaker: "TBA" },
+      { time: "10:10 – 10:30", title: "TBA", speaker: "TBA" },
+
+      { time: "10:30 – 11:15", title: "Tea Break", speaker: "" },
+
+      { time: "11:15 – 11:45", title: "TBA", speaker: "TBA" },
+      { time: "11:45 – 12:15", title: "TBA", speaker: "TBA" },
+      { time: "12:15 – 12:45", title: "TBA", speaker: "TBA" },
+      { time: "12:45 – 13:15", title: "TBA", speaker: "TBA" },
+
+      { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
+
+      { time: "14:15 – 14:45", title: "TBA", speaker: "TBA" },
+      { time: "14:45 – 15:15", title: "TBA", speaker: "TBA" },
+      { time: "15:15 – 15:45", title: "TBA", speaker: "TBA" },
+
+      { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
+
+      { time: "16:15 – 16:45", title: "TBA", speaker: "TBA" },
+      { time: "16:45 – 17:15", title: "TBA", speaker: "TBA" },
+
+      {
+        time: "17:15 – 17:30",
+        title: "Closing Remarks & Group Photo",
+        speaker: "",
+      },
     ],
   },
+
   {
     name: "Breakout",
     color: "from-[#14B8A6] to-[#0D9488]",
     bgColor: "bg-[#14B8A6]",
     headerBg: "bg-[#14B8A6]",
     sessions: [
-      { time: "10:30 - 11:00", title: "Session 1", speaker: "TBA" },
-      { time: "11:00 - 11:30", title: "Session 2", speaker: "TBA" },
-      { time: "11:30 - 12:00", title: "Session 3", speaker: "TBA" },
-      { time: "12:00 - 12:30", title: "Tea Break", speaker: "" },
-      { time: "12:30 - 13:00", title: "Session 4", speaker: "TBA" },
-      { time: "13:00 - 13:30", title: "Session 5", speaker: "TBA" },
-      { time: "13:30 - 14:30", title: "Lunch Break", speaker: "" },
-      { time: "14:30 - 15:00", title: "Session 6", speaker: "TBA" },
-      { time: "15:00 - 15:30", title: "Session 7", speaker: "TBA" },
-      { time: "15:30 - 16:00", title: "Session 8", speaker: "TBA" },
+      { time: "11:15 – 11:45", title: "TBA", speaker: "TBA" },
+      { time: "11:45 – 12:15", title: "TBA", speaker: "TBA" },
+      { time: "12:15 – 12:45", title: "TBA", speaker: "TBA" },
+      { time: "12:45 – 13:15", title: "TBA", speaker: "TBA" },
+
+      { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
+
+      { time: "14:15 – 14:45", title: "TBA", speaker: "TBA" },
+      { time: "14:45 – 15:00", title: "TBA", speaker: "TBA" },
+      { time: "15:00 – 15:15", title: "TBA", speaker: "TBA" },
+      { time: "15:15 – 15:45", title: "TBA", speaker: "TBA" },
+
+      { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
+
+      { time: "16:15 – 16:45", title: "TBA", speaker: "TBA" },
+      { time: "16:45 – 17:00", title: "TBA", speaker: "TBA" },
     ],
   },
+
   {
     name: "Galaxy",
     color: "from-[#EAB308] to-[#CA8A04]",
     bgColor: "bg-[#EAB308]",
     headerBg: "bg-[#EAB308]",
     sessions: [
-      { time: "10:30 - 11:00", title: "Session 1", speaker: "TBA" },
-      { time: "11:00 - 11:30", title: "Session 2", speaker: "TBA" },
-      { time: "11:30 - 12:00", title: "Session 3", speaker: "TBA" },
-      { time: "12:00 - 12:30", title: "Tea Break", speaker: "" },
-      { time: "12:30 - 13:00", title: "Session 4", speaker: "TBA" },
-      { time: "13:00 - 13:30", title: "Session 5", speaker: "TBA" },
-      { time: "13:30 - 14:30", title: "Lunch Break", speaker: "" },
-      { time: "14:30 - 15:00", title: "Session 6", speaker: "TBA" },
-      { time: "15:00 - 15:30", title: "Session 7", speaker: "TBA" },
-      { time: "15:30 - 16:00", title: "Session 8", speaker: "TBA" },
+      { time: "11:15 – 13:15", title: "Workshop (TBA)", speaker: "TBA" },
+
+      { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
+
+      {
+        time: "14:15 – 15:30",
+        title: "Workshop / Community Session (TBA)",
+        speaker: "TBA",
+      },
+      {
+        time: "15:30 – 15:45",
+        title: "Sponsor Lightning Session (TBA)",
+        speaker: "TBA",
+      },
+
+      { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
+
+      {
+        time: "16:15 – 17:15",
+        title: "Women Gathering – Community Meetup",
+        speaker: "",
+      },
     ],
   },
 ];
@@ -73,213 +110,124 @@ function TrackTable({
 }) {
   return (
     <div
-      className={`shrink-0 w-full transition-all duration-300 ${isActive ? "opacity-100" : "opacity-0 absolute"}`}
+      className={`shrink-0 w-full transition-all duration-300 ${
+        isActive ? "opacity-100" : "opacity-0 absolute"
+      }`}
     >
-      <div className="bg-white/95 backdrop-blur-sm rounded-xl shadow-lg overflow-hidden border border-gray-200">
-        {/* Table Header with Room Name */}
-        <div
-          className={`${track.headerBg} px-4 md:px-6 py-3 md:py-4 flex items-center gap-2 md:gap-3`}
-        >
-          <MapPin className="w-5 h-5 md:w-6 md:h-6 text-white" />
-          <h3 className="text-lg md:text-2xl font-bold text-white">
-            {track.name}
-          </h3>
+      <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-300">
+        <div className={`${track.headerBg} px-6 py-4 flex items-center gap-3`}>
+          <MapPin className="w-6 h-6 text-white" />
+          <h3 className="text-2xl font-bold text-white">{track.name}</h3>
         </div>
 
-        {/* Desktop Table - Hidden on Mobile */}
-        <div className="hidden md:block overflow-x-auto">
-          <table className="w-full">
-            <thead>
-              <tr className={`${track.headerBg}/20`}>
-                <th className="px-6 py-4 text-left text-sm font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200 w-40">
-                  Time
-                </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200">
-                  Session
-                </th>
-                <th className="px-6 py-4 text-left text-sm font-bold text-gray-900 uppercase tracking-wider border-b border-gray-200 w-48">
-                  Speaker
-                </th>
+        <table className="w-full">
+          <thead>
+            <tr className={`${track.headerBg}/20`}>
+              <th className="px-6 py-4 text-left text-sm font-bold text-black">
+                Time
+              </th>
+              <th className="px-6 py-4 text-left text-sm font-bold text-black">
+                Session
+              </th>
+              <th className="px-6 py-4 text-left text-sm font-bold text-black">
+                Speaker
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {track.sessions.map((s, i) => (
+              <tr key={i} className="border-b border-gray-200">
+                <td className="px-6 py-3 font-semibold text-black whitespace-nowrap">
+                  {s.time}
+                </td>
+                <td className="px-6 py-3 font-medium text-black">{s.title}</td>
+                <td className="px-6 py-3 text-black">{s.speaker || "—"}</td>
               </tr>
-            </thead>
-            <tbody>
-              {track.sessions.map((session, index) => {
-                const isBreak = session.title.includes("Break");
-                return (
-                  <tr
-                    key={index}
-                    className={`${
-                      isBreak
-                        ? "bg-gray-100"
-                        : index % 2 === 0
-                          ? "bg-white"
-                          : "bg-gray-50"
-                    } hover:bg-gray-100 transition-colors`}
-                  >
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900 border-b border-gray-100">
-                      {session.time}
-                    </td>
-                    <td
-                      className={`px-6 py-4 text-sm border-b border-gray-100 ${
-                        isBreak
-                          ? "text-gray-600 italic font-medium"
-                          : "text-gray-900 font-semibold"
-                      }`}
-                    >
-                      {session.title}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600 border-b border-gray-100">
-                      {session.speaker || "—"}
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-
-        {/* Mobile Card List - Hidden on Desktop */}
-        <div className="md:hidden max-h-[400px] overflow-y-auto">
-          {track.sessions.map((session, index) => {
-            const isBreak = session.title.includes("Break");
-            return (
-              <div
-                key={index}
-                className={`p-3 border-b border-gray-100 ${
-                  isBreak
-                    ? "bg-gray-100"
-                    : index % 2 === 0
-                      ? "bg-white"
-                      : "bg-gray-50"
-                }`}
-              >
-                <div
-                  className={`inline-block text-xs font-semibold ${track.bgColor} text-white px-2 py-1 rounded-full mb-2`}
-                >
-                  {session.time}
-                </div>
-                <div
-                  className={`text-sm ${isBreak ? "text-gray-600 italic" : "text-gray-900 font-semibold"}`}
-                >
-                  {session.title}
-                </div>
-                {session.speaker && (
-                  <div className="text-xs text-gray-500 mt-1">
-                    {session.speaker}
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );
 }
 
-export default function Speakers() {
+export default function Agenda() {
   const [activeTrack, setActiveTrack] = useState(0);
 
-  const nextTrack = () => {
-    setActiveTrack((prev) => (prev + 1) % tracks.length);
-  };
-
-  const prevTrack = () => {
-    setActiveTrack((prev) => (prev - 1 + tracks.length) % tracks.length);
-  };
-
   return (
-    <section
-      id="speakers"
-      className="relative w-full min-h-screen flex flex-col items-center justify-center py-20 overflow-hidden"
-    >
-      {/* Background Image */}
+    <section id="agenda" className="relative w-full min-h-screen py-20">
       <div className="absolute inset-0 z-0">
         <Image
           src="/loksabha.png"
           alt="Lok Sabha Background"
           fill
-          className="object-cover object-center"
-          quality={100}
+          className="object-cover"
         />
+        <div className="absolute inset-0 bg-black/10" />
       </div>
 
-      {/* Top Fade Gradient - matching Event Journey bottom */}
-      <div className="absolute top-0 left-0 right-0 h-32 bg-linear-to-b from-[#EFBB9E] to-transparent z-5" />
+      <div className="relative z-10 max-w-7xl mx-auto px-4">
+        <h2 className="text-4xl md:text-6xl font-bold text-center text-black mb-8">
+          Agenda
+        </h2>
 
-      {/* Bottom Fade Gradient */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-linear-to-t from-[#1a6b7c] to-transparent z-5" />
-
-      {/* Main Container */}
-      <div className="relative z-10 w-full px-2 md:px-16">
-        {/* Large Glassmorphism Box */}
-        <div className="bg-[#DEDEDE]/30 backdrop-blur-sm border border-black/50 rounded-xl p-4 md:p-12 flex flex-col items-center gap-4 md:gap-8 relative overflow-hidden">
-          {/* Title */}
-          <h2 className="text-3xl md:text-6xl font-bold text-black text-center tracking-tight">
-            Agenda
-          </h2>
-
-          {/* Track Selector Tabs */}
-          <div className="flex justify-center gap-1 md:gap-4 w-full">
-            {tracks.map((track, index) => (
-              <button
-                key={index}
-                onClick={() => setActiveTrack(index)}
-                className={`flex items-center gap-1 md:gap-2 px-3 md:px-6 py-2 md:py-3 rounded-full font-semibold text-xs md:text-base transition-all ${
-                  activeTrack === index
-                    ? `${track.bgColor} text-white shadow-lg scale-105`
-                    : "bg-white/80 text-gray-700 hover:bg-white"
-                }`}
-              >
-                <MapPin className="w-3 h-3 md:w-4 md:h-4" />
-                <span className="truncate">{track.name}</span>
-              </button>
-            ))}
-          </div>
-
-          {/* Carousel Container */}
-          <div className="relative w-full">
-            {/* Left Arrow */}
+        <div className="flex justify-center gap-4 mb-6">
+          {tracks.map((t, i) => (
             <button
-              onClick={prevTrack}
-              className="absolute -left-1 md:-left-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white p-1.5 md:p-3 rounded-full shadow-lg transition-all hover:scale-110"
+              key={i}
+              onClick={() => setActiveTrack(i)}
+              className={`px-5 py-2 rounded-full font-semibold transition-all ${
+                activeTrack === i
+                  ? `${t.bgColor} text-white`
+                  : "bg-white text-black"
+              }`}
             >
-              <ChevronLeft className="w-5 h-5 md:w-6 md:h-6 text-black" />
+              {t.name}
+            </button>
+          ))}
+        </div>
+
+        <div className="relative">
+          {/* Desktop arrows */}
+          <button
+            onClick={() =>
+              setActiveTrack((activeTrack + tracks.length - 1) % tracks.length)
+            }
+            className="hidden md:flex absolute -left-12 top-1/2 -translate-y-1/2 z-20 bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
+          >
+            <ChevronLeft className="w-5 h-5 text-black" />
+          </button>
+
+          <button
+            onClick={() => setActiveTrack((activeTrack + 1) % tracks.length)}
+            className="hidden md:flex absolute -right-12 top-1/2 -translate-y-1/2 z-20 bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
+          >
+            <ChevronRight className="w-5 h-5 text-black" />
+          </button>
+
+          {tracks.map((track, i) => (
+            <TrackTable key={i} track={track} isActive={i === activeTrack} />
+          ))}
+
+          {/* Mobile arrows */}
+          <div className="flex md:hidden justify-center gap-6 mt-6">
+            <button
+              onClick={() =>
+                setActiveTrack(
+                  (activeTrack + tracks.length - 1) % tracks.length,
+                )
+              }
+              className="bg-white p-3 rounded-full shadow-md active:scale-95 transition"
+            >
+              <ChevronLeft className="w-5 h-5 text-black" />
             </button>
 
-            {/* Table Display */}
-            <div className="relative mx-6 md:mx-12 overflow-hidden">
-              {tracks.map((track, index) => (
-                <TrackTable
-                  key={index}
-                  track={track}
-                  isActive={activeTrack === index}
-                />
-              ))}
-            </div>
-
-            {/* Right Arrow */}
             <button
-              onClick={nextTrack}
-              className="absolute -right-1 md:-right-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white p-1.5 md:p-3 rounded-full shadow-lg transition-all hover:scale-110"
+              onClick={() => setActiveTrack((activeTrack + 1) % tracks.length)}
+              className="bg-white p-3 rounded-full shadow-md active:scale-95 transition"
             >
-              <ChevronRight className="w-5 h-5 md:w-6 md:h-6 text-black" />
+              <ChevronRight className="w-5 h-5 text-black" />
             </button>
-          </div>
-
-          {/* Dots Indicator */}
-          <div className="flex gap-2">
-            {tracks.map((track, index) => (
-              <button
-                key={index}
-                onClick={() => setActiveTrack(index)}
-                className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all ${
-                  activeTrack === index
-                    ? `${track.bgColor} w-6 md:w-8`
-                    : "bg-gray-400 hover:bg-gray-500"
-                }`}
-              />
-            ))}
           </div>
         </div>
       </div>
