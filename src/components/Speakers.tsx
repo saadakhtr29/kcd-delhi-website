@@ -57,7 +57,7 @@ const tracks = [
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
-      { time: "14:15 – 14:45", title: "GPU Agnostic AI Inference with Ray on Kubernetes", speaker: "TBA" },
+      { time: "14:15 – 14:45", title: "TBA", speaker: "TBA" },
       { time: "14:45 – 15:00", title: "Kubernetes 1.35: The Release That Finally Saves My Budget (and My Sanity)", speaker: " Arnab Chatterjee - Cloud Native Expert" },
       { time: "15:00 – 15:15", title: "Contributing to Argo CD: A Hands-On Guide for New Contributors in India", speaker: " Nitish Kumar -  Software Engineer, Akuity &  Argo Project Maintainer" },
       { time: "15:15 – 15:45", title: "KMCP and the Future of Agent-Native Kubernetes: Control Planes ", speaker: "Anisha Singla - Founder, Teeny Tech Trek & Aman Mundra -  Founder and CEO, Welzin" },
