@@ -14,27 +14,27 @@ const tracks = [
       { time: "07:30 – 09:15", title: "Registrations", speaker: "" },
 
       { time: "09:30 – 09:50", title: "Opening Remarks", speaker: "" },
-      { time: "09:50 – 10:00", title: "TBA", speaker: "TBA" },
-      { time: "10:00 – 10:10", title: "TBA", speaker: "TBA" },
-      { time: "10:10 – 10:30", title: "TBA", speaker: "TBA" },
+      { time: "09:50 – 10:00", title: "Keynote 1", speaker: "TBA" },
+      { time: "10:00 – 10:10", title: "Keynote 2", speaker: "TBA" },
+      { time: "10:10 – 10:30", title: " AI on Kubernetes: A Community Roundtable on What’s Working, What’s Not", speaker: "Atulpriya Sharma, Ram Iyengar, Saloni Narang" },
 
       { time: "10:30 – 11:15", title: "Tea Break", speaker: "" },
 
-      { time: "11:15 – 11:45", title: "TBA", speaker: "TBA" },
-      { time: "11:45 – 12:15", title: "TBA", speaker: "TBA" },
+      { time: "11:15 – 11:45", title: "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust", speaker: " Gurpreet Sachdeva (Senior Director, capegemini)" },
+      { time: "11:45 – 12:15", title: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX", speaker: "Sagar Utekar (Site Reliability Engineer, CrowdStrike) & Oshi Gupta (Site Reliability Engineer @Improving Pune)" },
       { time: "12:15 – 12:45", title: "TBA", speaker: "TBA" },
-      { time: "12:45 – 13:15", title: "TBA", speaker: "TBA" },
+      { time: "12:45 – 13:15", title: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s", speaker: "Hrittik Roy & Aditya Soni" },
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
-      { time: "14:15 – 14:45", title: "TBA", speaker: "TBA" },
+      { time: "14:15 – 14:45", title: "Patterns of building platform operators", speaker: "George Hantzaras" },
       { time: "14:45 – 15:15", title: "TBA", speaker: "TBA" },
       { time: "15:15 – 15:45", title: "TBA", speaker: "TBA" },
 
       { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
 
       { time: "16:15 – 16:45", title: "TBA", speaker: "TBA" },
-      { time: "16:45 – 17:15", title: "TBA", speaker: "TBA" },
+      { time: "16:45 – 17:15", title: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos", speaker: "Suman Chakraborty & Mridul Gain" },
 
       {
         time: "17:15 – 17:30",
