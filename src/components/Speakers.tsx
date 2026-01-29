@@ -20,14 +20,14 @@ const tracks = [
 
       { time: "10:30 – 11:15", title: "Tea Break", speaker: "" },
 
-      { time: "11:15 – 11:45", title: "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust", speaker: " Gurpreet Sachdeva - Senior Director, capegemini)" },
-      { time: "11:45 – 12:15", title: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX", speaker: "Sagar Utekar - Site Reliability Engineer, CrowdStrike & Oshi Gupta - Site Reliability Engineer, Improving Pune)" },
+      { time: "11:15 – 11:45", title: "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust", speaker: " Gurpreet Sachdeva - Senior Director, capegemini" },
+      { time: "11:45 – 12:15", title: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX", speaker: "Sagar Utekar - Site Reliability Engineer, CrowdStrike & Oshi Gupta - Site Reliability Engineer, Improving Pune" },
       { time: "12:15 – 12:45", title: "TBA", speaker: "TBA" },
       { time: "12:45 – 13:15", title: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s", speaker: "Hrittik Roy - Platform Advocate, vCluster & Aditya Soni - SRE, SailPoint" },
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
-      { time: "14:15 – 14:45", title: "Patterns of building platform operators", speaker: "George Hantzaras - Director of Engineering, MongoDB" },
+      { time: "14:15 – 14:45", title: "TBA", speaker: "TBA" },
       { time: "14:45 – 15:15", title: "TBA", speaker: "TBA" },
       { time: "15:15 – 15:45", title: "TBA", speaker: "TBA" },
 
