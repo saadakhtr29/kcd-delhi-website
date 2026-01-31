@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   title: "KCD Delhi 2026",
   description: "Kubernetes Community Days Delhi 2026",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/favicon1.png",
+    shortcut: "/favicon1.png",
+    apple: "/favicon1.png",
   },
 };
 
