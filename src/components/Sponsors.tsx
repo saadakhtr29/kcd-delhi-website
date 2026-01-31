@@ -82,9 +82,21 @@ export default function Sponsors() {
                 />
               </div>
             </div>
+             <div className="grid grid-cols-1 gap-8 place-items-center">
+              <div className="flex items-center justify-center bg-[#1B2D4A] rounded-xl p-8 mt-10 shadow-lg max-w-md w-full h-32">
+                <ImageBtn
+                  href="https://kodekloud.com/"
+                  src="/KodeKloud.svg"
+                  alt="KodeKloud Logo"
+                  width={180}
+                  height={60}
+                  className="max-w-full max-h-full object-contain"
+                />
+              </div>
+            </div>
           </div>
 
-          {/* Startup Sponsor */}
+          {/* Startup Sponsor
           <div className="mb-16">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-8 bg-linear-to-r from-green-400 to-emerald-600 bg-clip-text">
               Startup Sponsor
@@ -101,7 +113,7 @@ export default function Sponsors() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Diversity Sponsor */}
           <div className="mb-14">
@@ -210,6 +222,17 @@ export default function Sponsors() {
                 href="https://www.linkedin.com/company/cncf-thane/?originalSubdomain=in"
                 src="/cloud-native-partners/cncf-thane-logo.png"
                 alt="CNCF Hyderabad Partner Logo"
+                width={220}
+                height={60}
+                className="max-w-full max-h-full object-contain rounded-md"
+              />
+            </div>
+
+             <div className="col-start-1 md:col-start-2 flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+              <ImageBtn
+                href="#"
+                src="/cloud-native-partners/cloud_native_mumbai.jpeg"
+                alt="CNCF Mumbai Partner Logo"
                 width={220}
                 height={60}
                 className="max-w-full max-h-full object-contain rounded-md"
