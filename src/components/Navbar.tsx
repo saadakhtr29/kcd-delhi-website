@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { name: "About", href: "#about" },
+  { name: "Event Timeline", href: "#timeline" },
   { name: "Agenda", href: "#agenda" },
   { name: "Speakers", href: "#speakers" },
   { name: "Venue", href: "#venue" },
@@ -55,22 +56,21 @@ export default function Navbar() {
       }`}
     >
       <div className="flex items-center justify-between px-6 py-4 md:px-12">
-       <Link
-  href="/"
-  className="relative flex items-center justify-center h-20 w-20 md:h-25 md:w-21 rounded-xl bg-white/80 backdrop-blur-sm shadow-sm"
->
-  <div className="relative h-16 w-16 md:h-18 md:w-18 scale-[1.5] transition duration-300 hover:scale-[1.65]">
-    <Image
-      src="/KCD Logo.svg"
-      alt="KCD Delhi Logo"
-      fill
-      className="object-contain"
-      sizes="(max-width: 768px) 80px, 128px"
-      priority
-    />
-  </div>
-</Link>
-
+        <Link
+          href="/"
+          className="relative flex items-center justify-center h-20 w-20 md:h-25 md:w-21 rounded-xl bg-white/80 backdrop-blur-sm shadow-sm"
+        >
+          <div className="relative h-16 w-16 md:h-18 md:w-18 scale-[1.5] transition duration-300 hover:scale-[1.65]">
+            <Image
+              src="/KCD Logo.svg"
+              alt="KCD Delhi Logo"
+              fill
+              className="object-contain"
+              sizes="(max-width: 768px) 80px, 128px"
+              priority
+            />
+          </div>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-10">
