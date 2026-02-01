@@ -16,14 +16,36 @@ const tracks = [
       { time: "09:30 – 09:50", title: "Opening Remarks", speaker: "" },
       { time: "09:50 – 10:00", title: "Keynote 1", speaker: "TBA" },
       { time: "10:00 – 10:10", title: "Keynote 2", speaker: "TBA" },
-      { time: "10:10 – 10:30", title: " AI on Kubernetes: A Community Roundtable on What’s Working, What’s Not", speaker: "Atulpriya Sharma, Ram Iyengar, Saloni Narang" },
+      {
+        time: "10:10 – 10:30",
+        title:
+          " AI on Kubernetes: A Community Roundtable on What’s Working, What’s Not",
+        speaker: "Atulpriya Sharma, Ram Iyengar, Saloni Narang",
+      },
 
       { time: "10:30 – 11:15", title: "Tea Break", speaker: "" },
 
-      { time: "11:15 – 11:45", title: "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust", speaker: " Gurpreet Sachdeva - Senior Director, capegemini" },
-      { time: "11:45 – 12:15", title: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX", speaker: "Sagar Utekar - Site Reliability Engineer, CrowdStrike & Oshi Gupta - Site Reliability Engineer, Improving Pune" },
+      {
+        time: "11:15 – 11:45",
+        title:
+          "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust",
+        speaker: " Gurpreet Sachdeva - Senior Director, capegemini",
+      },
+      {
+        time: "11:45 – 12:15",
+        title:
+          "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
+        speaker:
+          "Sagar Utekar - Site Reliability Engineer, CrowdStrike & Oshi Gupta - Site Reliability Engineer, Improving Pune",
+      },
       { time: "12:15 – 12:45", title: "TBA", speaker: "TBA" },
-      { time: "12:45 – 13:15", title: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s", speaker: "Hrittik Roy - Platform Advocate, vCluster & Aditya Soni - SRE, SailPoint" },
+      {
+        time: "12:45 – 13:15",
+        title:
+          "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
+        speaker:
+          "Hrittik Roy - Platform Advocate, vCluster & Aditya Soni - SRE, SailPoint",
+      },
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
@@ -34,7 +56,13 @@ const tracks = [
       { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
 
       { time: "16:15 – 16:45", title: "TBA", speaker: "TBA" },
-      { time: "16:45 – 17:15", title: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos", speaker: "Suman Chakraborty - Solutions Architect, Platform9  & Mridul Gain - Senior Member of Technical Staff, Platform9" },
+      {
+        time: "16:45 – 17:15",
+        title:
+          "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
+        speaker:
+          "Suman Chakraborty - Solutions Architect, Platform9  & Mridul Gain - Senior Member of Technical Staff, Platform9",
+      },
 
       {
         time: "17:15 – 17:30",
@@ -50,22 +78,68 @@ const tracks = [
     bgColor: "bg-[#14B8A6]",
     headerBg: "bg-[#14B8A6]",
     sessions: [
-      { time: "11:15 – 11:45", title: "GPU-Native Observability: Reducing LLM Latency with eBPF and Grafana Beyla", speaker: "Rigin Rajan - Lead Consultant, HCLTech" },
-      { time: "11:45 – 12:15", title: "OpenChoreo: A Plane-Based Architecture for Internal Developer Platforms ", speaker: "Manjula Rathnayaka - Director of Engineering, WSO2 " },
-      { time: "12:15 – 12:45", title: "From Cloud to Pi: Zero-Trust Artifact Distribution to Edge & Remote Sites with Harbor Satellite", speaker: " Prasanth Baskar - Software Engineer,  Sematext Group & Soham Chakraborty - SRE,  Sematext Group" },
-      { time: "12:45 – 13:15", title: "GitOps at Scale using FluxCD", speaker: "Aditya Joshi - Senior Software Engineer, Walmart" },
+      {
+        time: "11:15 – 11:45",
+        title:
+          "GPU-Native Observability: Reducing LLM Latency with eBPF and Grafana Beyla",
+        speaker: "Rigin Rajan - Lead Consultant, HCLTech",
+      },
+      {
+        time: "11:45 – 12:15",
+        title:
+          "OpenChoreo: A Plane-Based Architecture for Internal Developer Platforms ",
+        speaker: "Manjula Rathnayaka - Director of Engineering, WSO2 ",
+      },
+      {
+        time: "12:15 – 12:45",
+        title:
+          "From Cloud to Pi: Zero-Trust Artifact Distribution to Edge & Remote Sites with Harbor Satellite",
+        speaker:
+          " Prasanth Baskar - Software Engineer,  Sematext Group & Soham Chakraborty - SRE,  Sematext Group",
+      },
+      {
+        time: "12:45 – 13:15",
+        title: "GitOps at Scale using FluxCD",
+        speaker: "Aditya Joshi - Senior Software Engineer, Walmart",
+      },
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
       { time: "14:15 – 14:45", title: "TBA", speaker: "TBA" },
-      { time: "14:45 – 15:00", title: "Kubernetes 1.35: The Release That Finally Saves My Budget (and My Sanity)", speaker: " Arnab Chatterjee - Cloud Native Expert" },
-      { time: "15:00 – 15:15", title: "Contributing to Argo CD: A Hands-On Guide for New Contributors in India", speaker: " Nitish Kumar -  Software Engineer, Akuity &  Argo Project Maintainer" },
-      { time: "15:15 – 15:45", title: "KMCP and the Future of Agent-Native Kubernetes: Control Planes ", speaker: "Anisha Singla - Founder, Teeny Tech Trek & Aman Mundra -  Founder and CEO, Welzin" },
+      {
+        time: "14:45 – 15:00",
+        title:
+          "Kubernetes 1.35: The Release That Finally Saves My Budget (and My Sanity)",
+        speaker: " Arnab Chatterjee - Cloud Native Expert",
+      },
+      {
+        time: "15:00 – 15:15",
+        title:
+          "Contributing to Argo CD: A Hands-On Guide for New Contributors in India",
+        speaker:
+          " Nitish Kumar -  Software Engineer, Akuity &  Argo Project Maintainer",
+      },
+      {
+        time: "15:15 – 15:45",
+        title:
+          "KMCP and the Future of Agent-Native Kubernetes: Control Planes ",
+        speaker:
+          "Anisha Singla - Founder, Teeny Tech Trek & Aman Mundra -  Founder and CEO, Welzin",
+      },
 
       { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
 
-      { time: "16:15 – 16:45", title: "Beyond Device Plugins: Mastering GPU Workloads with DRA and NVIDIA GPU Operator", speaker: " Shivkumar Ople - Senior Software Engineer, NVIDIA" },
-      { time: "16:45 – 17:00", title: "AI-Assisted Kubernetes Policy Management with Kyverno", speaker: "Akshay kumar -  Open Source Evangelist, Obmondo" },
+      {
+        time: "16:15 – 16:45",
+        title:
+          "Beyond Device Plugins: Mastering GPU Workloads with DRA and NVIDIA GPU Operator",
+        speaker: " Shivkumar Ople - Senior Software Engineer, NVIDIA",
+      },
+      {
+        time: "16:45 – 17:00",
+        title: "AI-Assisted Kubernetes Policy Management with Kyverno",
+        speaker: "Akshay kumar -  Open Source Evangelist, Obmondo",
+      },
     ],
   },
 
@@ -111,10 +185,10 @@ function TrackTable({
   return (
     <div
       className={`shrink-0 w-full transition-all duration-300 ${
-  isActive
-    ? "opacity-100 relative pointer-events-auto"
-    : "opacity-0 absolute pointer-events-none"
-}`}
+        isActive
+          ? "opacity-100 relative pointer-events-auto"
+          : "opacity-0 absolute pointer-events-none"
+      }`}
     >
       <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-300">
         <div className={`${track.headerBg} px-6 py-4 flex items-center gap-3`}>
@@ -122,32 +196,36 @@ function TrackTable({
           <h3 className="text-2xl font-bold text-white">{track.name}</h3>
         </div>
 
-        <table className="w-full">
-          <thead>
-            <tr className={`${track.headerBg}/20`}>
-              <th className="px-6 py-4 text-left text-sm font-bold text-black">
-                Time
-              </th>
-              <th className="px-6 py-4 text-left text-sm font-bold text-black">
-                Session
-              </th>
-              <th className="px-6 py-4 text-left text-sm font-bold text-black">
-                Speaker
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {track.sessions.map((s, i) => (
-              <tr key={i} className="border-b border-gray-200">
-                <td className="px-6 py-3 font-semibold text-black whitespace-nowrap">
-                  {s.time}
-                </td>
-                <td className="px-6 py-3 font-medium text-black">{s.title}</td>
-                <td className="px-6 py-3 text-black">{s.speaker || "—"}</td>
+        <div className="overflow-x-auto md:overflow-visible">
+          <table className="w-full min-w-[700px] md:min-w-full">
+            <thead>
+              <tr className={`${track.headerBg}/20`}>
+                <th className="px-6 py-4 text-left text-sm font-bold text-black">
+                  Time
+                </th>
+                <th className="px-6 py-4 text-left text-sm font-bold text-black">
+                  Session
+                </th>
+                <th className="px-6 py-4 text-left text-sm font-bold text-black">
+                  Speaker
+                </th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {track.sessions.map((s, i) => (
+                <tr key={i} className="border-b border-gray-200">
+                  <td className="px-6 py-3 font-semibold text-black whitespace-nowrap">
+                    {s.time}
+                  </td>
+                  <td className="px-6 py-3 font-medium text-black">
+                    {s.title}
+                  </td>
+                  <td className="px-6 py-3 text-black">{s.speaker || "—"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
