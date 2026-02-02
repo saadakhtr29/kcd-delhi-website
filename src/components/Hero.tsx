@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import RegistrationModal from "./RegistrationModal";
 
@@ -125,9 +126,9 @@ export default function Hero() {
               Register Now
             </button>
 
-            <div className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-lg font-medium text-lg shadow-lg w-full sm:w-auto backdrop-blur-sm text-center inline-block cursor-default">
-              Agenda Coming Soon
-            </div>
+            <Link href="#agenda" className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-lg font-medium text-lg shadow-lg w-full sm:w-auto backdrop-blur-sm text-center inline-block cursor-pointer">
+            View Full Agenda
+            </Link>
           </div>
         </div>
       </div>
