@@ -95,7 +95,7 @@ const tracks = [
         title:
           "From Cloud to Pi: Zero-Trust Artifact Distribution to Edge & Remote Sites with Harbor Satellite",
         speaker:
-          " Prasanth Baskar - Software Engineer,  Sematext Group & Soham Chakraborty - SRE,  Sematext Group",
+          " Prasanth Baskar - Software Engineer,  8gears AG & Soham Chakraborty - SRE,  Sematext Group",
       },
       {
         time: "12:45 – 13:15",
