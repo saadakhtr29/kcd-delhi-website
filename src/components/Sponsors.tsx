@@ -228,11 +228,51 @@ export default function Sponsors() {
               />
             </div>
 
-             <div className="col-start-1 md:col-start-2 flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+             <div className="flex items-ceter justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
               <ImageBtn
                 href="#"
                 src="/cloud-native-partners/cloud_native_mumbai.jpeg"
                 alt="CNCF Mumbai Partner Logo"
+                width={220}
+                height={60}
+                className="max-w-full max-h-full object-contain rounded-md"
+              />
+            </div>
+             <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+              <ImageBtn
+                href="https://www.linkedin.com/company/kcddelhi/"
+                src="/cloud-native-partners/cncg-nd.jpeg"
+                alt="CNCF New Delhi Partner Logo"
+                width={220}
+                height={60}
+                className="max-w-full max-h-full object-contain rounded-md"
+              />
+            </div>
+             <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+              <ImageBtn
+                href="https://www.linkedin.com/company/cloud-native-noida/"
+                src="/cloud-native-partners/cncg-noida.webp"
+                alt="CNCF Noida Partner Logo"
+                width={220}
+                height={60}
+                className="max-w-full max-h-full object-contain rounded-md"
+              />
+            </div>
+             <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+              <ImageBtn
+                href="https://www.linkedin.com/company/cncfchd/"
+                src="/cloud-native-partners/cncg-chandigarh.jpg"
+                alt="CNCF Chandigarh Partner Logo"
+                width={220}
+                height={60}
+                className="max-w-full max-h-full object-contain rounded-md"
+              />
+            </div>
+             <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+              <ImageBtn
+                href="https://www.linkedin.com/company/cncg-dehradun/"
+                src="/cloud-native-partners/cncg-dehradun.jpeg"
+                alt="CNCF Dehradun Partner Logo"
                 width={220}
                 height={60}
                 className="max-w-full max-h-full object-contain rounded-md"

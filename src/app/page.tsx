@@ -8,6 +8,7 @@ import Team from "@/components/Team";
 import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
 import NotificationBanner from "@/components/notificationBanner";
+import SpeakersSection from "@/components/SpeakersSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <About />
       <EventTimeline />
       <Speakers />
+      <SpeakersSection />
       <Venue />
       <Team />
       <Sponsors />
