@@ -13,7 +13,11 @@ const tracks = [
     sessions: [
       { time: "07:30 – 09:15", title: "Registrations", speaker: "" },
 
-      { time: "09:30 – 09:50", title: "Opening Remarks", speaker: "Saiyam Pathak" },
+      {
+        time: "09:30 – 09:50",
+        title: "Opening Remarks",
+        speaker: "Saiyam Pathak",
+      },
       { time: "09:50 – 10:00", title: "Keynote 1", speaker: "TBA" },
       { time: "10:00 – 10:10", title: "Keynote 2", speaker: "TBA" },
       {
@@ -29,16 +33,22 @@ const tracks = [
         time: "11:15 – 11:45",
         title:
           "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
-        speaker: "Sagar Utekar - Site Reliability Engineer, CrowdStrike & Oshi Gupta - Site Reliability Engineer, Improving Pune ",
+        speaker:
+          "Sagar Utekar - Site Reliability Engineer, CrowdStrike & Oshi Gupta - Site Reliability Engineer, Improving Pune ",
       },
       {
         time: "11:45 – 12:15",
         title:
           "Trust But Verify: Securing the Modern Software Supply Chain with Zero Trust",
-        speaker:
-          "Gurpreet Sachdeva - Senior Director, capegemini",
+        speaker: "Gurpreet Sachdeva - Senior Director, capegemini",
       },
-      { time: "12:15 – 12:45", title: " Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos", speaker: "Suman Chakraborty - Solutions Architect, Platform9  & Mridul Gain - Senior Member of Technical Staff, Platform9" },
+      {
+        time: "12:15 – 12:45",
+        title:
+          " Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
+        speaker:
+          "Suman Chakraborty - Solutions Architect, Platform9  & Mridul Gain - Senior Member of Technical Staff, Platform9",
+      },
       {
         time: "12:45 – 13:15",
         title:
@@ -49,19 +59,25 @@ const tracks = [
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
-      { time: "14:15 – 14:45", title: "Surviving Zero-Trust-Reliability with Observability and eBPF", speaker: "Yash Verma" },
+      {
+        time: "14:15 – 14:45",
+        title: "Surviving Zero-Trust-Reliability with Observability and eBPF",
+        speaker: "Yash Verma",
+      },
       { time: "14:45 – 15:15", title: "TBA", speaker: "TBA" },
-      { time: "15:15 – 15:45", title: "Why AIOps Failed, And Why Agents Might Finally Work", speaker: "TBA" },
+      {
+        time: "15:15 – 15:45",
+        title: "Why AIOps Failed, And Why Agents Might Finally Work",
+        speaker: "TBA",
+      },
 
       { time: "15:45 – 16:15", title: "Tea Break", speaker: "" },
 
       { time: "16:15 – 16:45", title: "TBA", speaker: "TBA" },
       {
         time: "16:45 – 17:15",
-        title:
-          "KServe & KAgent: Simplifying AI Model Deployment at Scale",
-        speaker:
-          "Rishi Mondal & Onkar Shelke",
+        title: "KServe & KAgent: Simplifying AI Model Deployment at Scale",
+        speaker: "Rishi Mondal & Onkar Shelke",
       },
 
       {
@@ -105,7 +121,12 @@ const tracks = [
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 
-      { time: "14:15 – 14:45", title: " AI-Augmented Kubernetes Operations: Making Your Cluster Self-Explaining with LLMs & Semantic Search", speaker: "Rajan Sharma - Principal Architect, Comtech" },
+      {
+        time: "14:15 – 14:45",
+        title:
+          " AI-Augmented Kubernetes Operations: Making Your Cluster Self-Explaining with LLMs & Semantic Search",
+        speaker: "Rajan Sharma - Principal Architect, Comtech",
+      },
       {
         time: "14:45 – 15:00",
         title:
@@ -149,7 +170,11 @@ const tracks = [
     bgColor: "bg-[#EAB308]",
     headerBg: "bg-[#EAB308]",
     sessions: [
-      { time: "11:15 – 13:15", title: "Real-World Multi Cluster Networking Patterns with Istio", speaker: "Sayed Imran, Kubestronaut" },
+      {
+        time: "11:15 – 13:15",
+        title: "Real-World Multi Cluster Networking Patterns with Istio",
+        speaker: "Sayed Imran, Kubestronaut",
+      },
 
       { time: "13:15 – 14:15", title: "Lunch Break", speaker: "" },
 

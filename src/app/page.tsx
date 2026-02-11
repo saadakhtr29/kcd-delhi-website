@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import EventTimeline from "@/components/EventTimeline";
-import Speakers from "@/components/Speakers";
+import Agenda from "@/components/Agenda";
 import Venue from "@/components/Venue";
 import Team from "@/components/Team";
 import Sponsors from "@/components/Sponsors";
@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
       <About />
       <EventTimeline />
-      <Speakers />
+      <Agenda />
       <SpeakersSection />
       <Venue />
       <Team />

@@ -169,7 +169,7 @@ const speakers = [
 
 export default function SpeakersSection() {
   return (
-    <section className="relative w-full py-24 overflow-hidden">
+    <section className="relative w-full py-24 overflow-hidden" id="speakers">
       {/* Background */}
       <div className="absolute inset-0 -z-20">
         <Image
@@ -181,7 +181,7 @@ export default function SpeakersSection() {
         />
       </div>
 
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#EAB308]/50 via-[#F97316]/40 to-[#14B8A6]/50 mix-blend-multiply" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-br from-[#EAB308]/50 via-[#F97316]/40 to-[#14B8A6]/50 mix-blend-multiply" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4">
         <h2 className="text-4xl md:text-6xl font-bold text-center text-black mb-16">
@@ -193,7 +193,7 @@ export default function SpeakersSection() {
           {speakers.map((speaker, index) => (
             <div
               key={index}
-              className="min-w-[300px] max-w-[320px] snap-start flex-shrink-0"
+              className="min-w-[300px] max-w-[320px] snap-start shrink-0"
             >
               <SpeakerCard {...speaker} />
             </div>
