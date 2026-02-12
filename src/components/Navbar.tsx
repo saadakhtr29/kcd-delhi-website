@@ -47,7 +47,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-[45px] sm:top-10 left-0 right-0 z-40 transition-all duration-500 ease-in-out${
+      className={`fixed left-0 right-0 z-40 transition-all duration-500 ease-in-out${
         isVisible ? "translate-y-0" : "-translate-y-full"
       } ${
         isScrolled

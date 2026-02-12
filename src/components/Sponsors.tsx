@@ -239,7 +239,7 @@ export default function Sponsors() {
 
             <div className="flex items-ceter justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
               <ImageBtn
-                href="#"
+                href="https://www.linkedin.com/company/cloudnative-mumbai/"
                 src="/cloud-native-partners/cloud_native_mumbai.jpeg"
                 alt="CNCF Mumbai Partner Logo"
                 width={220}
