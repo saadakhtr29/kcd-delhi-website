@@ -18,13 +18,12 @@ const tracks = [
         title: "Opening Remarks",
         speaker: "Saiyam Pathak",
       },
-      { time: "09:50 – 10:00", title: "Keynote 1", speaker: "TBA" },
-      { time: "10:00 – 10:10", title: "Keynote 2", speaker: "TBA" },
+      { time: "09:50 – 10:00", title: "AI-driven Decision Support Systems in Defence", speaker: "Ms Sanchita Malik, Sc-G, Defence Research & Development Organisation" },
       {
         time: "10:10 – 10:30",
         title:
           " AI on Kubernetes: A Community Roundtable on What’s Working, What’s Not",
-        speaker: "Atulpriya Sharma, Ram Iyengar, Saloni Narang",
+        speaker: "Atulpriya Sharma, Ram Iyengar, Saloni Narang,  Amanda Brock",
       },
 
       { time: "10:30 – 11:15", title: "Tea Break", speaker: "" },
