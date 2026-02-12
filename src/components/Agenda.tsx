@@ -63,7 +63,7 @@ const tracks = [
         title: "Surviving Zero-Trust-Reliability with Observability and eBPF",
         speaker: "Yash Verma",
       },
-      { time: "14:45 – 15:15", title: "TBA", speaker: "TBA" },
+      { time: "14:45 – 15:15", title: "Building Elastic Cloud Serverless on K8s: Lessons from Operating at Scale", speaker: "Someshwaran M" },
       {
         time: "15:15 – 15:45",
         title: "Why AIOps Failed, And Why Agents Might Finally Work",
