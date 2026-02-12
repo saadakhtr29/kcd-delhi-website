@@ -15,13 +15,13 @@ export default function Sponsors() {
             Sponsors
           </h2>
 
-          {/* Gold Sponsors */}
           <div className="mb-16">
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-8 bg-linear-to-r from-yellow-400 to-yellow-600 bg-clip-text">
-              Gold Sponsors
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-8 bg-linear-to-r from-yellow-400 to-yellow-600 bg-clip-text text-center">
+              Platinum Sponsors
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
-              <div className="flex items-center justify-center bg-white/95 rounded-xl p-8 shadow-lg w-full h-32">
+
+            <div className="flex justify-center">
+              <div className="flex items-center justify-center bg-white/95 rounded-xl p-8 shadow-lg w-full max-w-md h-32">
                 <ImageBtn
                   href="https://www.vcluster.com"
                   src="/vCluster_logo.svg"
@@ -31,6 +31,15 @@ export default function Sponsors() {
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
+            </div>
+          </div>
+
+          {/* Gold Sponsors */}
+          <div className="mb-16">
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-8 bg-linear-to-r from-yellow-400 to-yellow-600 bg-clip-text">
+              Gold Sponsors
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center place-items-center max-w-3xl mx-auto">
               <div className="flex items-center justify-center bg-white/95 rounded-xl p-8 shadow-lg w-full h-32">
                 <ImageBtn
                   href="https://www.vultr.com/"
@@ -82,7 +91,7 @@ export default function Sponsors() {
                 />
               </div>
             </div>
-             <div className="grid grid-cols-1 gap-8 place-items-center">
+            <div className="grid grid-cols-1 gap-8 place-items-center">
               <div className="flex items-center justify-center bg-[#1B2D4A] rounded-xl p-8 mt-10 shadow-lg max-w-md w-full h-32">
                 <ImageBtn
                   href="https://kodekloud.com/"
@@ -228,7 +237,7 @@ export default function Sponsors() {
               />
             </div>
 
-             <div className="flex items-ceter justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+            <div className="flex items-ceter justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
               <ImageBtn
                 href="#"
                 src="/cloud-native-partners/cloud_native_mumbai.jpeg"
@@ -238,7 +247,7 @@ export default function Sponsors() {
                 className="max-w-full max-h-full object-contain rounded-md"
               />
             </div>
-             <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+            <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
               <ImageBtn
                 href="https://www.linkedin.com/company/kcddelhi/"
                 src="/cloud-native-partners/cncg-nd.jpeg"
@@ -248,7 +257,7 @@ export default function Sponsors() {
                 className="max-w-full max-h-full object-contain rounded-md"
               />
             </div>
-             <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+            <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
               <ImageBtn
                 href="https://www.linkedin.com/company/cloud-native-noida/"
                 src="/cloud-native-partners/cncg-noida.webp"
@@ -258,7 +267,7 @@ export default function Sponsors() {
                 className="max-w-full max-h-full object-contain rounded-md"
               />
             </div>
-             <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+            <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
               <ImageBtn
                 href="https://www.linkedin.com/company/cncfchd/"
                 src="/cloud-native-partners/cncg-chandigarh.jpg"
@@ -268,7 +277,7 @@ export default function Sponsors() {
                 className="max-w-full max-h-full object-contain rounded-md"
               />
             </div>
-             <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
+            <div className="flex items-center justify-center bg-[#232e3c] rounded-xl p-8 shadow-lg aspect-square w-32 md:w-40">
               <ImageBtn
                 href="https://www.linkedin.com/company/cncg-dehradun/"
                 src="/cloud-native-partners/cncg-dehradun.jpeg"
