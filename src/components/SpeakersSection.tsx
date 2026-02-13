@@ -3,7 +3,29 @@
 import Image from "next/image";
 import SpeakerCard from "./SpeakerCard";
 
-const speakers = [
+// Keynote Speakers
+const keynoteSpeakers = [
+  {
+    name: "Amanda Brock",
+    designation: "CEO",
+    company: "OpenUK",
+    talkTitle: "Panel Discussion",
+    image: "/speakers/amanda.jpeg",
+  },
+  {
+    name: "Atulpriya Sharma",
+    designation: "Senior Developer Advocate",
+    company: "Infracloud",
+    talkTitle: "Panel Discussion",
+    image: "/speakers/atulpriya-sharma.jpg",
+  },
+  {
+    name: "Ram Iyengar",
+    designation: "Chief Evangelist",
+    company: "Cloud Foundary Foundation",
+    talkTitle: "Panel Discussion",
+    image: "/ram-iyengar.jpg",
+  },
   {
     name: "Saiyam Pathak",
     designation: "Head of Developer Relations",
@@ -12,193 +34,211 @@ const speakers = [
     image: "/team-assets/saiyam.png",
   },
   {
-    name: "Ms. Sanchita Malik",
-    designation: "Scientist",
-    company: "DRDO",
-    talkTitle: "Keynote Talk: AI-Driven Decision Support System in DEfence",
-    image: "/speakers/drdo 2.png",
-  },
-  {
     name: "Saloni Narang",
     designation: "Co-Founder",
     company: "Kubesimplify",
     talkTitle: "Panel Discussion",
-    image: "/speakers/Saloni-Narang.png",
+    image: "/speakers/saloni-narang.jpg",
   },
   {
-    name: "Atulpriya Sharma",
-    designation: "Senior Developer Advocate",
-    company: "Infracloud",
-    talkTitle: "Panel Discussion",
-    image: "/speakers/Atulpriya-Sharma.png",
+    name: "Sanchita Malik",
+    designation: "Scientist",
+    company: "DRDO",
+    talkTitle: "Keynote Talk: AI-Driven Decision Support System in Defence",
+    image: "/speakers/drdo 2.png",
+  },
+];
+
+// Regular Speakers
+const speakers = [
+  {
+    name: "Aditya Joshi",
+    designation: "Senior Software Engineer",
+    company: "Walmart",
+    talkTitle: "GitOps at Scale using FluxCD",
+    image: "/speakers/aditya-joshi.jpg",
   },
   {
-    name: "Ram Iyengar",
-    designation: "Chief Evangelist",
-    company: "Cloud Foundary Foundation",
-    talkTitle: "Panel Discussion",
-    image: "/speakers/Ram-Iyengar.png",
-  },
-  {
-    name: "Amanda Brock",
-    designation: "CEO",
-    company: "OpenUK",
-    talkTitle: "Panel Discussion",
-    image: "/speakers/Amanda-Brock.png",
-  },
-  {
-    name: "Sagar",
+    name: "Aditya Soni",
     designation: "SRE",
-    company: "CrowdStrike",
-    talkTitle: "Gateway API Deep Dive",
-    image: "/speakers/Sagar-Utekar.png",
+    company: "SailPoint",
+    talkTitle: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
+    image: "/speakers/aditya-soni.jpg",
   },
   {
-    name: "Oshi",
-    designation: "SRE",
-    company: "CrowdStrike",
-    talkTitle: "Gateway API Deep Dive",
-    image: "/speakers/Oshi-Gupta.png",
+    name: "Akshay Kumar",
+    designation: "Open Source Evangelist",
+    company: "Obmondo",
+    talkTitle: "AI-Assisted Kubernetes Policy Management with Kyverno",
+    image: "/speakers/akshay-kumar.jpg",
   },
   {
-    name: "Gurpreet",
+    name: "Aman Mundra",
+    designation: "Founder & CEO",
+    company: "Welzin",
+    talkTitle: "KMCP and the Future of Agent-Native Kubernetes",
+    image: "/speakers/amandeep-singh.jpg",
+  },
+  {
+    name: "Anisha Singla",
+    designation: "Founder",
+    company: "Teeny Tech Trek",
+    talkTitle: "KMCP and the Future of Agent-Native Kubernetes",
+    image: "/speakers/anisha-singla.png",
+  },
+  {
+    name: "Arnab Chatterjee",
+    designation: "Cloud Native Expert",
+    company: "",
+    talkTitle: "Kubernetes 1.35: The Release That Finally Saves My Budget",
+    image: "/speakers/arnab-chatterjee.jpg",
+  },
+  {
+    name: "Gurpreet Sachdeva",
     designation: "Senior Director",
     company: "Capgemini",
-    talkTitle: "Securing the Modern Software Supply Chain",
-    image: "/speakers/Gurpreet-Sachdeva.png",
+    talkTitle: "Trust But Verify: Securing the Modern Software Supply Chain",
+    image: "/speakers/gurpreet-sachdeva.jpg",
   },
   {
-    name: "Mridul",
-    designation: "SMTS",
-    company: "Platform9",
-    talkTitle: "Project Sveltos Automation",
-    image: "/speakers/Suman-Chakraborty.png",
-  },
-  {
-    name: "Suman",
-    designation: "Solutions Architect",
-    company: "Platform9",
-    talkTitle: "Project Sveltos Automation",
-    image: "/speakers/Mridul-Gain.png",
-  },
-  {
-    name: "Aditya",
-    designation: "DevOps & SRE",
-    company: "SailPoint",
-    talkTitle: "Efficient LLM Inference on K8s",
-    image: "/speakers/aditya soni (1).png",
-  },
-  {
-    name: "Hrittik",
+    name: "Hrittik Roy",
     designation: "Platform Advocate",
     company: "vCluster",
-    talkTitle: "Efficient LLM Inference on K8s",
-    image: "/speakers/Hrittik-Roy.png",
+    talkTitle: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
+    image: "/speakers/hrittik-roy.jpg",
+  },
+  {
+    name: "Manjula Rathnayaka",
+    designation: "Director of Engineering",
+    company: "WSO2",
+    talkTitle: "OpenChoreo: A Plane-Based Architecture for Internal Developer Platforms",
+    image: "/speakers/manjula-rathnayaka.png",
+  },
+  {
+    name: "Mridul Gain",
+    designation: "Senior Member of Technical Staff",
+    company: "Platform9",
+    talkTitle: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
+    image: "/speakers/mridul-gain.jpg",
+  },
+  {
+    name: "Mridul Swarup",
+    designation: "Manager, Developer Relations",
+    company: "Vultr",
+    talkTitle: "Running Isolated AI Workloads on Modern GPU Accelerators",
+    image: "/speakers/mridul.jpg",
+  },
+  {
+    name: "Nitish Kumar",
+    designation: "Software Engineer & Argo Project Maintainer",
+    company: "Akuity",
+    talkTitle: "Contributing to Argo CD: A Hands-On Guide for New Contributors",
+    image: "/speakers/nitish-kumar.jpg",
+  },
+  {
+    name: "Onkar Shelke",
+    designation: "SRE Engineer & LFX Mentee",
+    company: "CNCF Kubestellar",
+    talkTitle: "KServe & KAgent: Simplifying AI Model Deployment at Scale",
+    image: "/speakers/onkar-shelke.jpg",
+  },
+  {
+    name: "Oshi Gupta",
+    designation: "Site Reliability Engineer",
+    company: "Improving Pune",
+    talkTitle: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
+    image: "/speakers/oshi-gupta.jpg",
+  },
+  {
+    name: "Prasanth Baskar",
+    designation: "Software Engineer",
+    company: "8gears AG",
+    talkTitle: "Zero-Trust Artifact Distribution to Edge with Harbor Satellite",
+    image: "/speakers/prasanth-baskar.png",
+  },
+  {
+    name: "Rajan Sharma",
+    designation: "Principal Architect",
+    company: "Comtech",
+    talkTitle: "AI-Augmented Kubernetes Operations with LLMs & Semantic Search",
+    image: "/speakers/rajan-sharma.jpg",
+  },
+  {
+    name: "Rakesh Rajendran",
+    designation: "Co-Founder & CEO",
+    company: "Nudgebee",
+    talkTitle: "Why First-Generation AIOps Stalled, And What Agentic AIOps Changes",
+    image: "/speakers/rakesh-rajendran.jpeg",
   },
   {
     name: "Rigin Rajan",
     designation: "Lead Consultant",
-    company: "HCL",
-    talkTitle: "GPU-Native Observability",
-    image: "/speakers/Rigin-Rajan.png",
+    company: "HCLTech",
+    talkTitle: "GPU-Native Observability: Reducing LLM Latency with eBPF and Grafana Beyla",
+    image: "/speakers/rigin-rajan.jpg",
   },
   {
-    name: "Manjula",
-    designation: "Director of Engineering",
-    company: "WSO2",
-    talkTitle: "OpenChoreo Architecture",
-    image: "/speakers/Manjula-Rathnayaka.png",
+    name: "Rishi Mondal",
+    designation: "Maintainer",
+    company: "CNCF Kubestellar",
+    talkTitle: "KServe & KAgent: Simplifying AI Model Deployment at Scale",
+    image: "/speakers/rishi-mondal.png",
   },
   {
-    name: "Prashanth",
-    designation: "Software Engineer",
-    company: "8gears",
-    talkTitle: "Zero-Trust Artifact Distribution",
-    image: "/speakers/Prasanth-Baskar.png",
+    name: "Sagar Utekar",
+    designation: "Site Reliability Engineer",
+    company: "CrowdStrike",
+    talkTitle: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
+    image: "/speakers/sagar-utekar.jpg",
+  },
+  {
+    name: "Sanket Modi",
+    designation: "Sr Engineering Manager, Community",
+    company: "CleanStart Security",
+    talkTitle: "Shift Left Without Slowing Down: Pre-Hardened Containers for Developer Velocity",
+    image: "/speakers/sanket-modi.jpeg",
+  },
+  {
+    name: "Sayed Imran",
+    designation: "Kubestronaut",
+    company: "",
+    talkTitle: "Real-World Multi Cluster Networking Patterns with Istio",
+    image: "/speakers/sayed-imran.jpg",
+  },
+  {
+    name: "Shivkumar Ople",
+    designation: "Senior Software Engineer",
+    company: "NVIDIA",
+    talkTitle: "Mastering GPU Workloads with DRA and NVIDIA GPU Operator",
+    image: "/speakers/shivkumar-ople.jpg",
   },
   {
     name: "Soham Chakraborty",
     designation: "SRE",
-    company: "Sematext",
-    talkTitle: "Zero-Trust Artifact Distribution",
-    image: "/speakers/Soham-Chakraborty.png",
+    company: "Sematext Group",
+    talkTitle: "Zero-Trust Artifact Distribution to Edge with Harbor Satellite",
+    image: "/speakers/soham-chakraborty.jpg",
   },
   {
-    name: "Sayad Imram",
-    designation: "DevOps Engineer",
-    company: "Convin",
-    talkTitle: "Multi Cluster Networking with Istio",
-    image: "/speakers/Sayed-Imran.png",
+    name: "Someshwaran M",
+    designation: "Speaker",
+    company: "Elastic",
+    talkTitle: "Building Elastic Cloud Serverless on K8s: Lessons from Operating at Scale",
+    image: "/speakers/someshwaram.jpeg",
+  },
+  {
+    name: "Suman Chakraborty",
+    designation: "Solutions Architect",
+    company: "Platform9",
+    talkTitle: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
+    image: "/speakers/suman-chakraborty.jpg",
   },
   {
     name: "Yash Verma",
     designation: "Community Advocate",
     company: "OpenTelemetry",
-    talkTitle: "Zero-Trust Reliability",
-    image: "/speakers/Yash-Verma.png",
-  },
-  {
-    name: "Rajan Sharma",
-    designation: "Speaker",
-    company: "Comtech",
-    talkTitle: "AI-Augmented Kubernetes Operations",
-    image: "/speakers/placeholder.jpg",
-  },
-  {
-    name: "Arnab",
-    designation: "Global Head - Container & AI Platform",
-    company: "Nomura",
-    talkTitle: "Kubernetes 1.35 Lightning Talk",
-    image: "/speakers/Arnab-Chatterjee.png",
-  },
-  {
-    name: "Nitish",
-    designation: "Software Engineer",
-    company: "Akuity",
-    talkTitle: "Contributing to Argo CD",
-    image: "/speakers/Nitish-Kumar.png",
-  },
-  {
-    name: "Amandeep",
-    designation: "Founder & CEO",
-    company: "Welzin.ai",
-    talkTitle: "Agent-Native Kubernetes",
-    image: "/speakers/Amandeep-Singh.png",
-  },
-  {
-    name: "Anisha",
-    designation: "Founder",
-    company: "Teeny Tech Trek",
-    talkTitle: "Agent-Native Kubernetes",
-    image: "/speakers/Anisha-Singla.png",
-  },
-  {
-    name: "Rishi",
-    designation: "Maintainer",
-    company: "CNCF Kubestellar",
-    talkTitle: "KServe & KAgent",
-    image: "/speakers/Rishi-Mondal.png",
-  },
-  {
-    name: "Onkar",
-    designation: "SRE Engineer & LFX Mentee",
-    company: "CNCF Kubestellar",
-    talkTitle: "KServe & KAgent",
-    image: "/speakers/Onkar-Shelke.png",
-  },
-  {
-    name: "Shivkumar",
-    designation: "Senior Software Engineer",
-    company: "NVIDIA",
-    talkTitle: "Mastering GPU Workloads with DRA",
-    image: "/speakers/Shivkumar-Ople.png",
-  },
-  {
-    name: "Akshay",
-    designation: "Open Source Evangelist",
-    company: "Obmondo",
-    talkTitle: "AI-Assisted Policy Management",
-    image: "/speakers/Akshay-Kumar.png",
+    talkTitle: "Surviving Zero-Trust-Reliability with Observability and eBPF",
+    image: "/speakers/yash-verma.jpg",
   },
 ];
 
@@ -220,19 +260,45 @@ export default function SpeakersSection() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4">
         <h2 className="text-4xl md:text-6xl font-bold text-center text-black mb-16">
-          Featured Speakers
+          Speakers
         </h2>
 
-        {/* Horizontal Scroll Container */}
-        <div className="flex gap-8 overflow-x-auto pb-6 scroll-smooth snap-x snap-mandatory">
-          {speakers.map((speaker, index) => (
-            <div
-              key={index}
-              className="min-w-[300px] max-w-[320px] snap-start shrink-0"
-            >
-              <SpeakerCard {...speaker} />
-            </div>
-          ))}
+        {/* Keynote Speakers Subsection */}
+        <div className="mb-16">
+          <h3 className="text-2xl md:text-4xl font-bold text-center text-black mb-10">
+            <span className="inline-block bg-gradient-to-r from-[#1e3a8a] to-[#3b82f6] bg-clip-text text-transparent">
+              Keynote Speakers
+            </span>
+          </h3>
+          <div className="flex flex-wrap justify-center gap-8">
+            {keynoteSpeakers.map((speaker, index) => (
+              <div
+                key={index}
+                className="w-[280px]"
+              >
+                <SpeakerCard {...speaker} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Speakers Subsection */}
+        <div>
+          <h3 className="text-2xl md:text-4xl font-bold text-center text-black mb-10">
+            <span className="inline-block bg-gradient-to-r from-[#1e3a8a] to-[#3b82f6] bg-clip-text text-transparent">
+              Speakers
+            </span>
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {speakers.map((speaker, index) => (
+              <div
+                key={index}
+                className="w-full"
+              >
+                <SpeakerCard {...speaker} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
