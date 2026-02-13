@@ -19,7 +19,7 @@ export default function Home() {
       <About />
       <EventTimeline />
       <Agenda />
-      <SpeakersSection />
+      {/* <SpeakersSection /> */}
       <Venue />
       <Team />
       <Sponsors />

@@ -129,6 +129,15 @@ export default function Hero() {
             <Link href="#agenda" className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-lg font-medium text-lg shadow-lg w-full sm:w-auto backdrop-blur-sm text-center inline-block cursor-pointer">
             View Full Agenda
             </Link>
+
+            <a
+              href="https://community.cncf.io/events/details/cncf-kcd-new-delhi-presents-kcd-new-delhi-2026/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-lg font-medium text-lg shadow-lg w-full sm:w-auto backdrop-blur-sm text-center inline-block cursor-pointer hover:bg-white/10 transition-colors"
+            >
+              Official KCD Page
+            </a>
           </div>
         </div>
       </div>
