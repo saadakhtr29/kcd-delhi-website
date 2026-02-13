@@ -62,7 +62,8 @@ const speakers = [
     name: "Aditya Soni",
     designation: "SRE",
     company: "SailPoint",
-    talkTitle: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
+    talkTitle:
+      "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
     image: "/speakers/aditya-soni.jpg",
   },
   {
@@ -84,7 +85,7 @@ const speakers = [
     designation: "Founder",
     company: "Teeny Tech Trek",
     talkTitle: "KMCP and the Future of Agent-Native Kubernetes",
-    image: "/speakers/anisha-singla.png",
+    image: "/speakers/Anisha-Singla.png",
   },
   {
     name: "Arnab Chatterjee",
@@ -104,21 +105,24 @@ const speakers = [
     name: "Hrittik Roy",
     designation: "Platform Advocate",
     company: "vCluster",
-    talkTitle: "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
+    talkTitle:
+      "Stop the GPU Madness! Making LLM Inference Actually Efficient on K8s",
     image: "/speakers/hrittik-roy.jpg",
   },
   {
     name: "Manjula Rathnayaka",
     designation: "Director of Engineering",
     company: "WSO2",
-    talkTitle: "OpenChoreo: A Plane-Based Architecture for Internal Developer Platforms",
-    image: "/speakers/manjula-rathnayaka.png",
+    talkTitle:
+      "OpenChoreo: A Plane-Based Architecture for Internal Developer Platforms",
+    image: "/speakers/Manjula-Rathnayaka.png",
   },
   {
     name: "Mridul Gain",
     designation: "Senior Member of Technical Staff",
     company: "Platform9",
-    talkTitle: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
+    talkTitle:
+      "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
     image: "/speakers/mridul-gain.jpg",
   },
   {
@@ -146,7 +150,8 @@ const speakers = [
     name: "Oshi Gupta",
     designation: "Site Reliability Engineer",
     company: "Improving Pune",
-    talkTitle: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
+    talkTitle:
+      "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
     image: "/speakers/oshi-gupta.jpg",
   },
   {
@@ -154,7 +159,7 @@ const speakers = [
     designation: "Software Engineer",
     company: "8gears AG",
     talkTitle: "Zero-Trust Artifact Distribution to Edge with Harbor Satellite",
-    image: "/speakers/prasanth-baskar.png",
+    image: "/speakers/Prasanth-Baskar.png",
   },
   {
     name: "Rajan Sharma",
@@ -167,14 +172,16 @@ const speakers = [
     name: "Rakesh Rajendran",
     designation: "Co-Founder & CEO",
     company: "Nudgebee",
-    talkTitle: "Why First-Generation AIOps Stalled, And What Agentic AIOps Changes",
+    talkTitle:
+      "Why First-Generation AIOps Stalled, And What Agentic AIOps Changes",
     image: "/speakers/rakesh-rajendran.jpeg",
   },
   {
     name: "Rigin Rajan",
     designation: "Lead Consultant",
     company: "HCLTech",
-    talkTitle: "GPU-Native Observability: Reducing LLM Latency with eBPF and Grafana Beyla",
+    talkTitle:
+      "GPU-Native Observability: Reducing LLM Latency with eBPF and Grafana Beyla",
     image: "/speakers/rigin-rajan.jpg",
   },
   {
@@ -182,20 +189,22 @@ const speakers = [
     designation: "Maintainer",
     company: "CNCF Kubestellar",
     talkTitle: "KServe & KAgent: Simplifying AI Model Deployment at Scale",
-    image: "/speakers/rishi-mondal.png",
+    image: "/speakers/Rishi-Mondal.png",
   },
   {
     name: "Sagar Utekar",
     designation: "Site Reliability Engineer",
     company: "CrowdStrike",
-    talkTitle: "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
+    talkTitle:
+      "Gateway API Deep Dive: The Modern Replacement for Ingress NGINX",
     image: "/speakers/sagar-utekar.jpg",
   },
   {
     name: "Sanket Modi",
     designation: "Sr Engineering Manager, Community",
     company: "CleanStart Security",
-    talkTitle: "Shift Left Without Slowing Down: Pre-Hardened Containers for Developer Velocity",
+    talkTitle:
+      "Shift Left Without Slowing Down: Pre-Hardened Containers for Developer Velocity",
     image: "/speakers/sanket-modi.jpeg",
   },
   {
@@ -223,14 +232,16 @@ const speakers = [
     name: "Someshwaran M",
     designation: "Speaker",
     company: "Elastic",
-    talkTitle: "Building Elastic Cloud Serverless on K8s: Lessons from Operating at Scale",
+    talkTitle:
+      "Building Elastic Cloud Serverless on K8s: Lessons from Operating at Scale",
     image: "/speakers/someshwaram.jpeg",
   },
   {
     name: "Suman Chakraborty",
     designation: "Solutions Architect",
     company: "Platform9",
-    talkTitle: "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
+    talkTitle:
+      "Taming the Multi-Cluster Sprawl: Add-on Automation with Project Sveltos",
     image: "/speakers/suman-chakraborty.jpg",
   },
   {
@@ -266,16 +277,13 @@ export default function SpeakersSection() {
         {/* Keynote Speakers Subsection */}
         <div className="mb-16">
           <h3 className="text-2xl md:text-4xl font-bold text-center text-black mb-10">
-            <span className="inline-block bg-gradient-to-r from-[#1e3a8a] to-[#3b82f6] bg-clip-text text-transparent">
+            <span className="inline-block bg-linear-to-r from-[#1e3a8a] to-[#3b82f6] bg-clip-text text-transparent">
               Keynote Speakers
             </span>
           </h3>
           <div className="flex flex-wrap justify-center gap-8">
             {keynoteSpeakers.map((speaker, index) => (
-              <div
-                key={index}
-                className="w-[280px]"
-              >
+              <div key={index} className="w-[280px]">
                 <SpeakerCard {...speaker} />
               </div>
             ))}
@@ -285,16 +293,13 @@ export default function SpeakersSection() {
         {/* Speakers Subsection */}
         <div>
           <h3 className="text-2xl md:text-4xl font-bold text-center text-black mb-10">
-            <span className="inline-block bg-gradient-to-r from-[#1e3a8a] to-[#3b82f6] bg-clip-text text-transparent">
+            <span className="inline-block bg-linear-to-r from-[#1e3a8a] to-[#3b82f6] bg-clip-text text-transparent">
               Speakers
             </span>
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {speakers.map((speaker, index) => (
-              <div
-                key={index}
-                className="w-full"
-              >
+              <div key={index} className="w-full">
                 <SpeakerCard {...speaker} />
               </div>
             ))}

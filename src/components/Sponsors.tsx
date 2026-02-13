@@ -321,7 +321,7 @@ export default function Sponsors() {
             {/* Grafana and Friends Delhi as Community Partner (no border) */}
             <div className="flex items-center justify-center bg-transparent shadow-none w-full max-w-md h-32">
               <ImageBtn
-                href="#"
+                href="https://www.meetup.com/grafana-friends-delhi/"
                 src="/grafana-and-friends-delhi.avif"
                 alt="Grafana and Friends Delhi Community Partner"
                 width={220}
@@ -332,7 +332,7 @@ export default function Sponsors() {
             {/* GrowIn Community Partner (no rectangular border) */}
             <div className="flex items-center justify-center bg-transparent shadow-none w-full max-w-md h-32">
               <ImageBtn
-                href="#"
+                href="https://www.linkedin.com/company/growincommunity/?viewAsMember=true"
                 src="/growinn-community.png"
                 alt="GrowIn Community Partner"
                 width={120}
