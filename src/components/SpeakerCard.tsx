@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Linkedin, Twitter } from "lucide-react";
 
 interface SpeakerCardProps {
@@ -44,11 +43,10 @@ export default function SpeakerCard({
       <div className="relative w-full aspect-square bg-gray-100 overflow-hidden">
         {hasImage ? (
           <>
-            <Image
+            <img
               src={image}
               alt={name}
-              fill
-              className="object-cover object-top transition-transform duration-500 ease-out group-hover:scale-110"
+              className="w-full h-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-110"
             />
             {/* Gradient overlay on hover */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
